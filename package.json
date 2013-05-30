@@ -1,0 +1,32 @@
+{
+  "name": "category",
+  "version": "0.0.0",
+  "description": "Webpage auto classification using clustering algorithem",
+  "main": "index.coffee",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CatTail/category.git"
+  },
+  "keywords": [
+    "category",
+    "clustering",
+    "cattail"
+  ],
+  "dependencies": {
+    "coffe-script": "*",
+    "mongodb": "*",
+    "jsdom": "*",
+    "porter-stemmer": "*"
+  },
+  "author": "zhongchiyu@gmail.com",
+  "license": "MIT",
+  "bin": {
+    "category": "./bin/category.coffee"
+  },
+	"directories" : {
+		"lib" : "./lib",
+		"bin" : "./bin"
+	}
+}
