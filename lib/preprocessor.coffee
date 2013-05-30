@@ -10,8 +10,7 @@ dir = './pages'
 preprocessor.handler = (target, collection, data, next) ->
   collection.findOne {url: target}, (err, doc) ->
     if not err and not doc
-      if count < 300
-        console.log ++count, target
+      if count < 3000
         jsdom.env {
           html: data
           url: target
@@ -23,6 +22,7 @@ preprocessor.handler = (target, collection, data, next) ->
                 if token.length > 1 and token.length < 15
                   tokens.push token
               if tokens.length isnt 0
+                console.log ++count, target
                 collection.insert {url: target, raw: data, tokens: tokens}, ->
             catch err
               console.log err
@@ -31,5 +31,7 @@ preprocessor.handler = (target, collection, data, next) ->
               if url.parse(a.href).protocol is 'http:'
                 next a.href
         }
+      else
+        process.exit()
 
 module.exports = preprocessor

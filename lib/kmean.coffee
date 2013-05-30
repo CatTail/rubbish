@@ -71,3 +71,4 @@ util.getDb 'category', (err, db) ->
         for vid, vector of vectors
           result[cid].push(vid)
       console.log result
+      db.close()
