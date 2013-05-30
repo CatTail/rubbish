@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+    <title>TeX - LaTeX Stack Exchange</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/tex/img/favicon.ico">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/tex/img/apple-touch-icon.png">
+    <link rel="search" type="application/opensearchdescription+xml" title="TeX - LaTeX Stack Exchange" href="/opensearch.xml">
+    
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.sstatic.net/js/stub.js?v=62072796f399"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/tex/all.css?v=a3af0dcd99e7">
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed of recent questions" href="/feeds">
+            <script type="text/javascript" defer>
+            StackExchange.using("gps", function() {
+                StackExchange.gps.track("homepage.show", {
+                       
+                    }, true);
+            });
+        </script>
+
+
+
+    <script type="text/javascript">
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('ws://sockets.ny.stackexchange.com:80');
+            StackExchange.realtime.subscribeToInboxNotifications();
+                    StackExchange.realtime.subscribeToReputationNotifications('85');
+                });
+    </script>
+    <script type="text/javascript">
+        StackExchange.init({"stackAuthUrl":"https://stackauth.com","serverTime":1369922314,"styleCode":true,"enableUserHovercards":true,"site":{"name":"TeX - LaTeX Stack Exchange","description":"Q&A for users of TeX, LaTeX, ConTeXt, and related typesetting systems","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","useNewStyleFavoriteTagsEditor":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"279532519dd908415c3aba4bd621ff16","isAnonymous":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.js":"6c261bebf56a","js/moderator.js":"f96f7e4ee5dc","js/full-anon.js":"0916c60ba5ef","js/full.js":"ee8dc25807f6","js/wmd.js":"61154666d6ef","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/mobile.js":"6eb68240242f","js/help.js":"fc9fb0517db2","js/tageditor.js":"450c9e8426fc","js/tageditornew.js":"b6c68ad4c7dd","js/inline-tag-editing.js":"8e84e8a137f7","js/revisions.js":"7273bb714bba","js/review.js":"56c3941a5bfc","js/tagsuggestions.js":"aa48ef6154df","js/post-validation.js":"4aec80fc0009","js/explore-qlist.js":"1c5bbd79b562"});
+        
+    </script>
+    <script type="text/javascript">
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script type="text/javascript">
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+</head>
+<body class="home-page">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+    <div class="container">
+        <div id="header" class=headeranon>
+            <div id="portalLink">
+                <a class="genu" href="http://stackexchange.com" onclick="StackExchange.ready(function(){genuwine.click();});return false;">Stack Exchange</a>
+            </div>
+            <div id="topbar">
+                <div id="hlinks">
+                    
+<span id="hlinks-user"></span>
+<span id="hlinks-nav">                        <a href="/users/login">sign up</a>
+
+ <span class="lsep">|</span>
+                    <a href="/users/login">log in</a>
+
+ <span class="lsep">|</span>
+</span>
+<span id="hlinks-custom"></span>
+                </div>
+                <div id="hsearch">
+                    <form id="search" action="/search" method="get" autocomplete="off">
+                        <div>
+                            <input autocomplete="off" name="q" class="textbox" placeholder="search" tabindex="1" type="text" maxlength="240" size="28" value="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    TeX - LaTeX
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs mainnavsanon">
+                    <ul>
+                            <li><a id="nav-questions" href="/questions">Questions</a></li>
+                            <li><a id="nav-tags" href="/tags">Tags</a></li>
+                            <li><a id="nav-tour" href="/about">Tour</a></li>
+                            <li><a id="nav-users" href="/users">Users</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+        <div id="content">
+            
+<div id="herobox">
+    <div id="hero-content">
+            <div id="close"><a title="click to minimize">_</a></div>
+        <div id="blurb">
+            <span id="site-name">TeX - LaTeX Stack Exchange</span> is a question and answer site for 
+            users of TeX, LaTeX, ConTeXt, and related typesetting systems. It's 100% free, no registration required.
+            <br />
+            <br />
+            <a href="/about" id="tell-me-more" class="button">Tell me more</a>
+        </div>
+        <div id="desc">
+            <b>Here's how it works:</b>
+            <ol id="hiw">
+                <li id="q">Anybody can ask a question
+                </li>
+                <li id="an">Anybody can answer
+                </li>
+                <li id="b">The best answers are voted up and rise to the top
+                </li>
+            </ol>
+        </div>
+    </div>
+    <script>
+        $('#herobox li').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true);
+            });
+
+            window.location.href = '/about';
+        });
+        $('#tell-me-more').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true);
+            });
+        });
+        $('#herobox #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "minimize" }, true);
+            });
+            $.cookie("hero", "mini", { path: "/" });
+            $.ajax({
+                url: "/hero-mini",
+                success: function (data) {
+                    $("#herobox").fadeOut("fast", function () {
+                        $("#herobox").replaceWith(data);
+                        $("#herobox-mini").fadeIn("fast");
+                    });
+                }
+            });
+            return false;
+        });
+    </script>
+</div>
+    <script type="text/javascript" defer>
+        StackExchange.using("gps", function () {
+            StackExchange.gps.track("hero.show", { hero_type: "hero" }, true);
+        });
+    </script>
+<div id="mainbar">
+
+
+    <div class="subheader"><h1 id="h-top-questions">Explore Our Questions</h1></div>
+    <div id="explore-tags">
+                <a href="/?tags=tikz-pgf" class="post-tag no-tag-menu" title="Show questions relating to tikz-pgf" rel="tag">tikz-pgf</a>
+                <a href="/?tags=tables" class="post-tag no-tag-menu" title="Show questions relating to tables" rel="tag">tables</a>
+                <a href="/?tags=beamer" class="post-tag no-tag-menu" title="Show questions relating to beamer" rel="tag">beamer</a>
+                <a href="/?tags=fonts" class="post-tag no-tag-menu" title="Show questions relating to fonts" rel="tag">fonts</a>
+                <a href="/?tags=math-mode" class="post-tag no-tag-menu" title="Show questions relating to math-mode" rel="tag">math-mode</a>
+                <a href="/?tags=spacing" class="post-tag no-tag-menu" title="Show questions relating to spacing" rel="tag">spacing</a>
+                <a href="/?tags=macros" class="post-tag no-tag-menu" title="Show questions relating to macros" rel="tag">macros</a>
+                <a href="/?tags=graphics" class="post-tag no-tag-menu" title="Show questions relating to graphics" rel="tag">graphics</a>
+                <a href="/?tags=table-of-contents" class="post-tag no-tag-menu" title="Show questions relating to table-of-contents" rel="tag">table-of-contents</a>
+                <a href="/?tags=sectioning" class="post-tag no-tag-menu" title="Show questions relating to sectioning" rel="tag">sectioning</a>
+             <a class="more-tags" href="/tags">more&nbsp;tags</a>
+
+    </div>
+<div id="qlist-wrapper"><div id="question-mini-list">
+
+
+<div class="question-summary narrow" id="question-summary-112343" >
+    <div onclick="window.location.href='/questions/112343/beautiful-table-samples'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">61</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">8</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='3865 views'>4</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/112343/beautiful-table-samples" class="question-hyperlink" title="I&#39;m interested in learning about some nice-looking table samples. Colors can make a huge difference, and just providing some color to headers, background, or borders can dramatically change ...">Beautiful table samples</a></h3>
+        <div class="tags t-tables t-big-list">
+            <a href="/questions/tagged/tables" class="post-tag" title="show questions tagged 'tables'" rel="tag">tables</a> <a href="/questions/tagged/big-list" class="post-tag" title="show questions tagged 'big-list'" rel="tag">big-list</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/112343/beautiful-table-samples/?lastactivity" class="started-link"><span title="2013-05-08 02:57:43Z" class="relativetime">may 8 at 2:57</span></a>
+            <a href="/users/16839/hpesoj626">hpesoj626</a> <span class="reputation-score" title="reputation score" dir="ltr">8,205</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-112975" >
+    <div onclick="window.location.href='/questions/112975/how-to-print-the-permutation-of-s-u-v-a-t-with-latex'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">39</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">5</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1508 views'>2</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/112975/how-to-print-the-permutation-of-s-u-v-a-t-with-latex" class="question-hyperlink" title="I want to use LaTeX to print the permutation of a set {s,u,v,a,t}. The output looks like the following.
+
+suvat
+suvta
+suavt
+suatv
+...
+
+
+There are 120 rows in total that must be generated on the fly.
+
+...">How to print the permutation of {s,u,v,a,t} with LaTeX?</a></h3>
+        <div class="tags t-programming">
+            <a href="/questions/tagged/programming" class="post-tag" title="show questions tagged 'programming'" rel="tag">programming</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/112975/how-to-print-the-permutation-of-s-u-v-a-t-with-latex/?lastactivity" class="started-link"><span title="2013-05-09 06:14:07Z" class="relativetime">may 9 at 6:14</span></a>
+            <a href="/users/1235/hendrik-vogt">Hendrik Vogt</a> <span class="reputation-score" title="reputation score 18776" dir="ltr">18.8k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-111807" >
+    <div onclick="window.location.href='/questions/111807/how-do-packages-work-why-arent-they-all-pre-initiated'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">33</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">6</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1494 views'>1</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/111807/how-do-packages-work-why-arent-they-all-pre-initiated" class="question-hyperlink" title="I have been using LaTeX for about a month now and whenever I have a question, most answers involve adding new packages to the preamble.
+
+My question is, how do these packages work? Are they all ...">How do packages work ? Why aren&#39;t they all pre-initiated?</a></h3>
+        <div class="tags t-packages t-latex-project">
+            <a href="/questions/tagged/packages" class="post-tag" title="show questions tagged 'packages'" rel="tag">packages</a> <a href="/questions/tagged/latex-project" class="post-tag" title="show questions tagged 'latex-project'" rel="tag">latex-project</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/111807/how-do-packages-work-why-arent-they-all-pre-initiated/?lastactivity" class="started-link"><span title="2013-05-04 09:54:56Z" class="relativetime">may 4 at 9:54</span></a>
+            <a href="/users/7417/count-zero">Count Zero</a> <span class="reputation-score" title="reputation score" dir="ltr">7,980</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-115730" >
+    <div onclick="window.location.href='/questions/115730/get-the-head-the-tail-and-the-last-element-of-a-comma-separated-list'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">22</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">10</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">766</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/115730/get-the-head-the-tail-and-the-last-element-of-a-comma-separated-list" class="question-hyperlink" title="I have a comma-separated list, stored in a macro. It is non-empty, and it has commas between the elements but not at the start or end. How can I get:
+
+
+the first element (a.k.a. the &quot;head&quot;)?
+the last ...">Get the head, the tail, and the last element of a comma-separated list</a></h3>
+        <div class="tags t-tikz-pgf t-comma-separated-list">
+            <a href="/questions/tagged/tikz-pgf" class="post-tag" title="show questions tagged 'tikz-pgf'" rel="tag">tikz-pgf</a> <a href="/questions/tagged/comma-separated-list" class="post-tag" title="show questions tagged 'comma-separated-list'" rel="tag">comma-separated-list</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/115730/get-the-head-the-tail-and-the-last-element-of-a-comma-separated-list/?lastactivity" class="started-link"><span title="2013-05-24 22:02:07Z" class="relativetime">may 24 at 22:02</span></a>
+            <a href="/users/3235/percusse">percusse</a> <span class="reputation-score" title="reputation score 46887" dir="ltr">46.9k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-111722" >
+    <div onclick="window.location.href='/questions/111722/microtypography-on-equations'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">29</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">5</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1113 views'>1</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/111722/microtypography-on-equations" class="question-hyperlink" title="Is there a way to make all three lines of math in the code below take up the same amount of length by use of font expansion? I know too little about microtype to even see if it could offer a solution. ...">Microtypography on equations</a></h3>
+        <div class="tags t-math-mode t-font-expansion">
+            <a href="/questions/tagged/math-mode" class="post-tag" title="show questions tagged 'math-mode'" rel="tag">math-mode</a> <a href="/questions/tagged/font-expansion" class="post-tag" title="show questions tagged 'font-expansion'" rel="tag">font-expansion</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/111722/microtypography-on-equations/?lastactivity" class="started-link"><span title="2013-05-06 10:10:08Z" class="relativetime">may 6 at 10:10</span></a>
+            <a href="/users/15925/andrew-swann">Andrew Swann</a> <span class="reputation-score" title="reputation score 14914" dir="ltr">14.9k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-114255" >
+    <div onclick="window.location.href='/questions/114255/how-to-project-text-onto-a-plane'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">30</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">3</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">744</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/114255/how-to-project-text-onto-a-plane" class="question-hyperlink" title="I&#39;m trying to create the impression that the text &quot;slice&quot; in the example below is written on the cube slice. What is the best solution? To slant the text?
+
+
+
+\documentclass{standalone}
+...">How to project text onto a plane?</a></h3>
+        <div class="tags t-tikz-pgf t-3d">
+            <a href="/questions/tagged/tikz-pgf" class="post-tag" title="show questions tagged 'tikz-pgf'" rel="tag">tikz-pgf</a> <a href="/questions/tagged/3d" class="post-tag" title="show questions tagged '3d'" rel="tag">3d</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114255/how-to-project-text-onto-a-plane/?lastactivity" class="started-link"><span title="2013-05-16 11:27:59Z" class="relativetime">may 16 at 11:27</span></a>
+            <a href="/users/3144/alain-matthes">Alain Matthes</a> <span class="reputation-score" title="reputation score 44747" dir="ltr">44.7k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-111703" >
+    <div onclick="window.location.href='/questions/111703/why-should-i-buy-a-tex-latex-guide-book'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">20</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">5</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">958</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/111703/why-should-i-buy-a-tex-latex-guide-book" class="question-hyperlink" title="I am relatively new to TeX/LaTeX and so far learnt all about it using online documentation or question-and-answer websites like this one.
+
+Should I consider buying a LaTeX guide book though? What ...">Why should I buy a TeX/LaTeX guide book?</a></h3>
+        <div class="tags t-books">
+            <a href="/questions/tagged/books" class="post-tag" title="show questions tagged 'books'" rel="tag">books</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/111703/why-should-i-buy-a-tex-latex-guide-book/?lastactivity" class="started-link"><span title="2013-05-02 13:01:19Z" class="relativetime">may 2 at 13:01</span></a>
+            <a href="/users/26900/vrleboss">vrleboss</a> <span class="reputation-score" title="reputation score" dir="ltr">361</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-111962" >
+    <div onclick="window.location.href='/questions/111962/design-of-an-asteroid-belt-in-tikz'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">14</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">5</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">887</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/111962/design-of-an-asteroid-belt-in-tikz" class="question-hyperlink" title="How can I construct an asteroid belt in TikZ? That is my question: I get everything right, but I do not know how to make the asteroid belt. 
+
+I have no code to add besides the preamble with TikZ ...">Design of an asteroid belt in TikZ</a></h3>
+        <div class="tags t-tikz-pgf t-diagrams">
+            <a href="/questions/tagged/tikz-pgf" class="post-tag" title="show questions tagged 'tikz-pgf'" rel="tag">tikz-pgf</a> <a href="/questions/tagged/diagrams" class="post-tag" title="show questions tagged 'diagrams'" rel="tag">diagrams</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/111962/design-of-an-asteroid-belt-in-tikz/?lastactivity" class="started-link"><span title="2013-05-03 02:41:42Z" class="relativetime">may 3 at 2:41</span></a>
+            <a href="/users/1402/matthew-leingang">Matthew Leingang</a> <span class="reputation-score" title="reputation score 20434" dir="ltr">20.4k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-113046" >
+    <div onclick="window.location.href='/questions/113046/how-to-draw-a-square-wave'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">14</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">7</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">924</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/113046/how-to-draw-a-square-wave" class="question-hyperlink" title="Everything is in the title...
+
+I&#39;m trying to draw a simple square wave , but I&#39;m reading that tikz cannot draw the vertical line of the discontinuity...
+
+Is there a way to overpass this ? PSTricks ...">How to draw a square wave?</a></h3>
+        <div class="tags t-tikz-pgf t-pstricks">
+            <a href="/questions/tagged/tikz-pgf" class="post-tag" title="show questions tagged 'tikz-pgf'" rel="tag">tikz-pgf</a> <a href="/questions/tagged/pstricks" class="post-tag" title="show questions tagged 'pstricks'" rel="tag">pstricks</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/113046/how-to-draw-a-square-wave/?lastactivity" class="started-link"><span title="2013-05-09 01:01:31Z" class="relativetime">may 9 at 1:01</span></a>
+            <a href="/users/15717/texenthusiast">texenthusiast</a> <span class="reputation-score" title="reputation score" dir="ltr">2,161</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-112599" >
+    <div onclick="window.location.href='/questions/112599/perform-matrix-operations-addition-product-transpose-etc-in-latex'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">27</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">663</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/112599/perform-matrix-operations-addition-product-transpose-etc-in-latex" class="question-hyperlink" title="I know the calc package can perform infix-notation arithmetic in LaTeX... but I want more!
+
+I&#39;d like to perform (not necessarily infix-notation) linear-algebra operations  such as scalar ...">Perform matrix operations (addition, product, transpose, etc.) in LaTeX?</a></h3>
+        <div class="tags t-matrices t-calculations">
+            <a href="/questions/tagged/matrices" class="post-tag" title="show questions tagged 'matrices'" rel="tag">matrices</a> <a href="/questions/tagged/calculations" class="post-tag" title="show questions tagged 'calculations'" rel="tag">calculations</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/112599/perform-matrix-operations-addition-product-transpose-etc-in-latex/?lastactivity" class="started-link"><span title="2013-05-08 10:30:36Z" class="relativetime">may 8 at 10:30</span></a>
+            <a href="/users/21891/jubobs">Jubobs</a> <span class="reputation-score" title="reputation score" dir="ltr">7,990</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-114292" >
+    <div onclick="window.location.href='/questions/114292/why-no-vertical-mode-knuth-plass'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">36</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">3</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">588</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/114292/why-no-vertical-mode-knuth-plass" class="question-hyperlink" title="I have only basic knowledge of the TeX internals, so I hope what I am saying here is not complete nonsense. If I understand correctly, in TeX, horizontal positioning / line breaking is done using a ...">Why no vertical-mode Knuth-Plass?</a></h3>
+        <div class="tags t-line-breaking t-page-breaking t-tex-core t-widows-orphans">
+            <a href="/questions/tagged/line-breaking" class="post-tag" title="show questions tagged 'line-breaking'" rel="tag">line-breaking</a> <a href="/questions/tagged/page-breaking" class="post-tag" title="show questions tagged 'page-breaking'" rel="tag">page-breaking</a> <a href="/questions/tagged/tex-core" class="post-tag" title="show questions tagged 'tex-core'" rel="tag">tex-core</a> <a href="/questions/tagged/widows-orphans" class="post-tag" title="show questions tagged 'widows-orphans'" rel="tag">widows-orphans</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114292/why-no-vertical-mode-knuth-plass/?lastactivity" class="started-link"><span title="2013-05-22 16:34:16Z" class="relativetime">may 22 at 16:34</span></a>
+            <a href="/users/1235/hendrik-vogt">Hendrik Vogt</a> <span class="reputation-score" title="reputation score 18776" dir="ltr">18.8k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-113900" >
+    <div onclick="window.location.href='/questions/113900/draw-polarized-light'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">32</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">630</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/113900/draw-polarized-light" class="question-hyperlink" title="I was trying to draw something like that
+
+
+
+Searching through the net to see if it already exists in tikz I came accross in texample.net the following image which looks a lot like what I want to draw.
+...">Draw polarized light</a></h3>
+        <div class="tags t-tikz-pgf t-3d t-plot">
+            <a href="/questions/tagged/tikz-pgf" class="post-tag" title="show questions tagged 'tikz-pgf'" rel="tag">tikz-pgf</a> <a href="/questions/tagged/3d" class="post-tag" title="show questions tagged '3d'" rel="tag">3d</a> <a href="/questions/tagged/plot" class="post-tag" title="show questions tagged 'plot'" rel="tag">plot</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/113900/draw-polarized-light/?lastactivity" class="started-link"><span title="2013-05-13 18:53:02Z" class="relativetime">may 13 at 18:53</span></a>
+            <a href="/users/23215/mark-wibrow">Mark Wibrow</a> <span class="reputation-score" title="reputation score" dir="ltr">4,446</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-116709" >
+    <div onclick="window.location.href='/questions/116709/if-latex-is-only-a-macro-package-why-does-it-have-its-own-executable'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">38</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">592</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/116709/if-latex-is-only-a-macro-package-why-does-it-have-its-own-executable" class="question-hyperlink" title="From other answers on this site and the FAQ of the TeX User Group my understanding is that:
+
+
+TeX is the original typesetting program, written by Knuth
+Omega, eTeX, pdfTeX, XeTeX, LuaTeX are engines. ...">If LaTeX is only a macro package, why does it have its own executable?</a></h3>
+        <div class="tags t-macros t-tex-core t-context t-latex-project">
+            <a href="/questions/tagged/macros" class="post-tag" title="show questions tagged 'macros'" rel="tag">macros</a> <a href="/questions/tagged/tex-core" class="post-tag" title="show questions tagged 'tex-core'" rel="tag">tex-core</a> <a href="/questions/tagged/context" class="post-tag" title="show questions tagged 'context'" rel="tag">context</a> <a href="/questions/tagged/latex-project" class="post-tag" title="show questions tagged 'latex-project'" rel="tag">latex-project</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/116709/if-latex-is-only-a-macro-package-why-does-it-have-its-own-executable/?lastactivity" class="started-link"><span title="2013-05-29 17:12:57Z" class="relativetime">20h ago</span></a>
+            <a href="/users/729/khaled-hosny">Khaled Hosny</a> <span class="reputation-score" title="reputation score 12664" dir="ltr">12.7k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-114075" >
+    <div onclick="window.location.href='/questions/114075/how-retrieve-items-in-a-list-of-words-by-number'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">18</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">5</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">247</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/114075/how-retrieve-items-in-a-list-of-words-by-number" class="question-hyperlink" title="I&#39;m working on a character sheet for the Fate RPG, which rates its skills with a numerical scale that corresponds to an adjective scale. I&#39;ve been trying to write a macro that will take \skillAdj{4} ...">How retrieve items in a list of words by number?</a></h3>
+        <div class="tags t-macros t-counters">
+            <a href="/questions/tagged/macros" class="post-tag" title="show questions tagged 'macros'" rel="tag">macros</a> <a href="/questions/tagged/counters" class="post-tag" title="show questions tagged 'counters'" rel="tag">counters</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/114075/how-retrieve-items-in-a-list-of-words-by-number/?lastactivity" class="started-link"><span title="2013-05-14 17:31:16Z" class="relativetime">may 14 at 17:31</span></a>
+            <a href="/users/16967/heiko-oberdiek">Heiko Oberdiek</a> <span class="reputation-score" title="reputation score 42388" dir="ltr">42.4k</span>
+        </div>
+    </div>
+</div>
+
+</div></div>
+    <div><a id="home-browse" class="button" href="/questions">Browse More Questions</a></div>
+<script type="text/javascript">StackExchange.using('exploreQuestions', function () {
+StackExchange.exploreQuestions.init({count:14});});</script>
+</div>
+    <div id="sidebar">
+                
+        
+
+<style type="text/css">
+    .ads { margin-left: 60px; }
+    .ad-container { width: 220px; height: 250px; margin-right: 20px; margin-bottom: 20px; }
+    .ad-container .ad { height: 250px; }
+    .ad-container .footer-container { overflow: hidden; height: 30px; position: relative; top: -30px; }
+    .ad-container .footer-container .footer { font-family: Arial,Helvetic,Sans-Serif; font-size: 12px; text-align: center; padding-top: 9px; background-color: #000; color: #EFF; opacity: 0.9; filter: alpha(opacity=90); top: 30px; height: 30px; position: relative; }
+    .ad-container a:hover { text-decoration: underline; }
+    #adzerk2 { height: 250px; }
+</style>
+<script type="text/javascript">
+    StackExchange.ready(function () {
+        $(".ad-container").hover(
+            function () {
+                $(".ad-container .footer-container .footer").stop(true, true).animate({ top: "0px" }, "fast");
+            },
+            function () {
+                $(".ad-container .footer-container .footer").animate({ top: "30px" }, "fast");
+            });
+    });
+</script>
+    <div class="ad-container">    
+        <div class="ad">    
+        <a href="http://meta.tex.stackexchange.com/ads/ct/2968?url=http%3a%2f%2fwiki.contextgarden.net" rel="nofollow" target="_blank"><img src="http://i.stack.imgur.com/DQdPB.png" alt="ConTeXt User Wiki" title="ConTeXt User Wiki" width="220" height="250"></a>
+        </div>
+        <div class="footer-container">
+            <div class="footer">
+                18 votes · <a href="http://meta.tex.stackexchange.com/questions/2956#2968" title="click to comment on this ad" target="_blank">comment</a> · <a href="http://meta.tex.stackexchange.com/ads/display/2956" target="_blank">stats</a>
+            </div>
+        </div>
+    </div>
+
+
+        
+        
+    </div>
+
+<div id="feed-link">
+    <div id="feed-link-text"><a href="/feeds/month" title="the 30 hottest questions this month"><span class="feed-icon"></span>monthly questions feed</a></div>
+</div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="/about">about</a>
+                    <a href="/faq">faq</a>
+                        <a href="/badges">badges</a>
+                    <a href="http://tex.blogoverflow.com/?blb=1">blog</a>
+                        <a href="http://chat.stackexchange.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/about/hiring">jobs</a>
+                    <a href="http://stackexchange.com/about/contact">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on", "/")'>mobile</a>
+                    <b><a href="/help">contact us</a></b>
+                        <b><a href="http://meta.tex.stackexchange.com">feedback</a></b>
+                </div>
+                <div id="footer-sites">
+                <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com" title="professional system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems.">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Answers</a></li>
+                        <li><a href="http://gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com" title="IT security professionals">IT Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (14)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com" title="statisticians, data analysts, data miners and data visualization experts">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackoverflow.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Overflow</a></li>
+                        <li><a href="http://area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &copy; 2013 stack exchange inc; 
+                user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc-wiki</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="footer-flair">
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/" class="cc-wiki-link"></a>
+            </div>
+            <div id="svnrev">
+                rev 2013.5.30.709
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">TeX - LaTeX Stack Exchange works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+    <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-5620270-24']);
+        _gaq.push(['_setDomainName','.stackexchange.com']);
+_gaq.push(['_trackPageview']);
+    var _qevents = _qevents || [];
+    (function(){
+        var s=document.getElementsByTagName('script')[0];
+        var ga=document.createElement('script');
+        ga.type='text/javascript';
+        ga.async=true;
+        ga.src='http://www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(ga,s);
+        var sc=document.createElement('script');
+        sc.type='text/javascript';
+        sc.async=true;
+        sc.src='http://edge.quantserve.com/quant.js'; 
+        s.parentNode.insertBefore(sc,s);
+    })();
+    </script>
+    <script type="text/javascript">
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>        
+    
+</body>
+</html>

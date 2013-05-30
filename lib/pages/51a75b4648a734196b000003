@@ -1,0 +1,441 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> Blog &#8211; Stack Exchange</title>
+<link rel="alternate" type="application/rss+xml" title="Stack Exchange Company Blog RSS Feed" href="http://blog.stackoverflow.com/feed/" />
+<link rel="shortcut icon" href="http://cdn.sstatic.net/stackexchange/img/favicon.ico">
+<link rel="stylesheet" href="http://blog.stackoverflow.com/wp-content/themes/se-new/style.css" type="text/css"  />
+<link rel="stylesheet" href="http://blog.stackoverflow.com/wp-content/themes/se-new/print.css" type="text/css" media="print" />
+<link rel="pingback" href="http://blog.stackoverflow.com/xmlrpc.php" />
+
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://blog.stackoverflow.com/wp-content/plugins/podpress/podpress.css?ver=3.5.1' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://blog.stackoverflow.com/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["loader"] = "009900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://blog.stackoverflow.com/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {lefticon:"333333", leftbg:"CCCCCC", volslider:"666666", voltrack:"FFFFFF", text:"333333", tracker:"DDDDDD", slider:"666666", loader:"009900", track:"FFFFFF", border:"CCCCCC", bg:"E5E5E5", skip:"666666", righticon:"333333", righticonhover:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://blog.stackoverflow.com/";
+var podPressBackendURL = "http://blog.stackoverflow.com/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://blog.stackoverflow.com/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = true;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = false;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Play Now";
+var podPressText_HidePlayer = "Hide Player";
+//]]></script>
+<script type='text/javascript' src='http://blog.stackoverflow.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://blog.stackoverflow.com/wp-content/plugins/podpress/js/podpress.js?ver=3.5.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.stackoverflow.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.stackoverflow.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel="stylesheet" type="text/css" href="http://blog.stackoverflow.com/wp-content/plugins/wp-recaptcha/recaptcha.css" />
+</head>
+<body>
+
+<div class="container">
+	<section class="topbarWrapper">
+		<div class="topbar">
+			<a href="http://www.stackexchange.com" class="logo-se">Stack Exchange</a>
+	
+			<div class="searchBox">
+				 
+<form class="frmSearch" method="get" id="searchform" action="http://blog.stackoverflow.com/" >
+<input type="text" size="25" class="txtSearch" value="Search"  name="s" id="s"  onblur="if (this.value == '')  {this.value = 'Search';}"  onfocus="if (this.value == 'Search')  {this.value = '';}" /> 
+
+<input type="hidden" class="btnSearch" id="searchsubmit" value="Search" />
+</form>
+
+			</div>  
+			
+
+			
+						
+		</div>
+	</section>
+    <header class="main">
+	<!-- Header Starts -->
+       <a href="http://blog.stackoverflow.com/"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/logo.png" alt="site title" class="logo-blog" /></a>
+       
+       <nav class="main">
+				<ul ><li class="page_item page-item-11180"><a href="http://blog.stackoverflow.com/archive/">Archive</a></li>
+</ul>
+		</nav>	
+    <!-- Header Ends -->
+    </header>
+	
+
+ 
+
+  <section id="content">  <!-- Main Content Start -->
+	<div class="contentWrapper">
+		<div id="mainbar">
+
+								<div class="blog-summary">
+						<h2 class="blog-title"><a href="http://blog.stackoverflow.com/2013/05/showing-off-those-valued-associates/">Company pages on Careers 2.0</a></h2>
+						<div class="meta-info">
+                        	 posted under <span class="post-category"><a href="http://blog.stackoverflow.com/category/announcement/" title="View all posts in announcement" rel="category tag">announcement</a>, <a href="http://blog.stackoverflow.com/category/careers/" title="View all posts in careers" rel="category tag">careers</a>, <a href="http://blog.stackoverflow.com/category/stackoverflow/" title="View all posts in stackoverflow" rel="category tag">stackoverflow</a></span> by <a href="http://blog.stackoverflow.com/author/josh-heyer/" title="Posts by Shog9" rel="author">Shog9</a> on
+                            <span class="postedDate">05-20-13</span> <a href="http://blog.stackoverflow.com/2013/05/showing-off-those-valued-associates/#comments" class="comment-bubble">7</a>
+						</div>
+
+						<div class="excerpt_main">
+							<div class="post-text">
+
+							<p>Stack Overflow has always had a strong focus on <i>individual</i> merit. Although collaboration is encouraged to some extent by the editing features, attribution on posts and the design of user profiles all tend to emphasize rugged individuality, that lone wolf toiling away at a keyboard.</p>
+<p><a href="http://www.flickr.com/photos/fremlin/2384478345/"><img src="http://i.stack.imgur.com/oNtn9.png" title="Wolf 2 by Robert Dewar. Keyboard presumably hidden by wildflowers."></a></p>
+<p>But most of us don&#8217;t actually <i>work</i> that way. We&#8217;re social creatures by nature, and the most challenging part of finding a good job can be finding the pack you want to run with. In spite of the dearth of features aimed at networking, folks have been using Stack Overflow to find and research potential colleagues almost since the day it launched &#8211; so a couple years ago, <a href="http://meta.stackoverflow.com/questions/80834/need-feedback-on-company-page-idea">we started looking for ways to make this a bit easier</a>. Well, <a href="http://blog.careers.stackoverflow.com/2013/05/17/introducing-careers-2-0-company-pages/">now it&#8217;s done</a>:</p>
+<blockquote><p>With Company Pages, we’ve focused on the best ways to tell an interesting company story. And what better way to tell your story than with massive photos of workstations, team outings, hackathons, local attractions, and the people who make the companies who they are? There are tightly designed sections to list your company tech stack and benefits, along with plenty of room to be creative and communicate what makes your company special, what awesome products you’re working on, and the philosophy that drives your team forward.<br />
+&mdash;<a href="http://blog.careers.stackoverflow.com/2013/05/17/introducing-careers-2-0-company-pages/">Introducing Careers 2.0 Company Pages</a></p></blockquote>
+<p>Go check out <a href="http://careers.stackoverflow.com/jobs/companies" title="More than three wolves to this moon">the other wolf-packs</a>&#8230; or <a href="http://careers.stackoverflow.com/products/company-pages">show off your own</a> on Careers 2.0. </p>
+ 
+							<p><a href="http://blog.stackoverflow.com/2013/05/showing-off-those-valued-associates/#comments" class="comment-bubble">7</a> <a href="http://blog.stackoverflow.com/2013/05/showing-off-those-valued-associates/#comments">comments</a></p>
+							</div>
+						</div>         
+					</div>
+									<div class="blog-summary">
+						<h2 class="blog-title"><a href="http://blog.stackoverflow.com/2013/05/podcast-47-do-you-even-twitter-bro/">Podcast #47 &#8211; Do You Even Twitter Bro?</a></h2>
+						<div class="meta-info">
+                        	 posted under <span class="post-category"><a href="http://blog.stackoverflow.com/category/podcasts/" title="View all posts in podcasts" rel="category tag">podcasts</a></span> by <a href="http://blog.stackoverflow.com/author/alex/" title="Posts by Alex Miller" rel="author">Alex Miller</a> on
+                            <span class="postedDate">05-14-13</span> <a href="http://blog.stackoverflow.com/2013/05/podcast-47-do-you-even-twitter-bro/#comments" class="comment-bubble">17</a>
+						</div>
+
+						<div class="excerpt_main">
+							<div class="post-text">
+
+							<p>We&#8217;re Back!  It&#8217;s been a while since our last podcast (why you ask &#8211; listen to find out!) but we&#8217;re back now and &#8220;stronger&#8221; than ever.  It&#8217;s Joel, David and Jay (plus producer Alex and Abby) coming to you from the brand new SE Podcast Studio (check out the picture below)</p>
+<ul>
+<li>News of the day: we&#8217;re finally in our new office (and podcast studio). We&#8217;ve got hexagonal offices (and therefore crooked hallways), and a cool café area. AND HEATED TOILET SEATS. And a kitchen with a giant walk-in refrigerator, for our interns (which we don&#8217;t have).</li>
+</ul>
+<div id="attachment_13382" class="wp-caption aligncenter" style="width: 584px"><a href="http://blog.stackoverflow.com/wp-content/uploads/Screen-Shot-2013-05-14-at-4.40.15-PM.jpg"><img class=" wp-image-13382  " alt="Taping podcasts in our new &quot;studio&quot;!" src="http://blog.stackoverflow.com/wp-content/uploads/Screen-Shot-2013-05-14-at-4.40.15-PM-1024x577.jpg" width="574" height="323" /></a><p class="wp-caption-text">Taping podcasts in our new &#8220;studio&#8221;!</p></div>
+<ul>
+<li>The new office has a nice event space. We&#8217;ve even done an event in it already!</li>
+<li>Last week, we had all of the remote developers, sysadmins, community managers, and sysadmins fly into New York to come hang out in the new office. We ate sushi and fried chicken and played a lot of ping pong, and also got some work done.</li>
+<li>Originally, we had planned these summits to be our Main Decision-Making Time, which ended up working terribly. We need to be able to make our decisions and do our brainstorming with remote team members regardless of whether or not they&#8217;re in the office.</li>
+<li>Jay, what&#8217;s happening with the Stack Exchange sites? We closed a couple of small sites - <a href="http://area51.stackexchange.com/proposals/49538/arduino" target="_blank">Arduino</a> and <a href="http://area51.stackexchange.com/proposals/40518/big-data" target="_blank">Big Data</a>. Everything on Arduino could have been discussed on <a href="http://electronics.stackexchange.com/" target="_blank">Electrical Engineering</a> anyway.</li>
+<li>We may have the same problem with <a href="http://networkengineering.stackexchange.com/" target="_blank">Network Engineering</a> (currently in private beta), but we&#8217;re more optimistic about that site. Likewise, we shut down <a href="http://bigdata.stackexchange.com">Big Data</a>, but currently have <a href="http://opendata.stackexchange.com/" target="_blank">Open Data</a> in private beta. Learn more about why one will survive where the other languished by listening in.</li>
+<li>Next topic: do tags belong in titles? Joel: &#8220;No.&#8221; Jay: &#8220;You&#8217;re wrong.&#8221; (there&#8217;s a bit more to it)</li>
+<li>This is a good discussion! You can weigh in in the podcast comments!</li>
+<li>David, do we have any new features? Check out our sites in an incognito window to see some stuff you may have missed.</li>
+<li>We&#8217;ll be debuting the new Help section soon! Previously, we&#8217;ve had all of our FAQ/help/how-to information spread far and wide across the network sites and their metas. No longer!</li>
+<li>Also, we&#8217;re working on some mobile apps. They&#8217;re vaporware at this point.</li>
+<li>Related: <a href="http://stackexchange.com/about/hiring" target="_blank">we&#8217;re hiring</a>! Devs, front-end developers/designers (which is it?), community managers, sales people… everything.</li>
+</ul>
+<p>That&#8217;s our show! Thanks for listening to Stack Exchange Podcast #47. See you in two weeks!<br />
+<iframe src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F92213289&amp;show_artwork=true" height="166" width="100%" frameborder="no" scrolling="no"></iframe></p>
+<div class="podPress_content podPress_content_audio_mp3"><div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/92213289-stack-exchange-stack-exchange-podcast-47.mp3" target="new" title="Download: SE Podcast #47 - Do You Even Twitter Bro?" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://blog.stackoverflow.com/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">SE Podcast #47 - Do You Even Twitter Bro?</span> <span class="podpress_mediafile_dursize podpress_mediafile_dursize_audio_mp3">[ 41:13 ]</span> <a href="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/92213289-stack-exchange-stack-exchange-podcast-47.mp3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a></div></div>
+<script type="text/javascript"></script> 
+							<p><a href="http://blog.stackoverflow.com/2013/05/podcast-47-do-you-even-twitter-bro/#comments" class="comment-bubble">17</a> <a href="http://blog.stackoverflow.com/2013/05/podcast-47-do-you-even-twitter-bro/#comments">comments</a></p>
+							</div>
+						</div>         
+					</div>
+									<div class="blog-summary">
+						<h2 class="blog-title"><a href="http://blog.stackoverflow.com/2013/04/get-to-know-the-new-stack-employees/">Get to know the new Stack employees</a></h2>
+						<div class="meta-info">
+                        	 posted under <span class="post-category"><a href="http://blog.stackoverflow.com/category/announcement/" title="View all posts in announcement" rel="category tag">announcement</a></span> by <a href="http://blog.stackoverflow.com/author/joe-humphries/" title="Posts by Joe Humphries" rel="author">Joe Humphries</a> on
+                            <span class="postedDate">04-25-13</span> <a href="http://blog.stackoverflow.com/2013/04/get-to-know-the-new-stack-employees/#comments" class="comment-bubble">12</a>
+						</div>
+
+						<div class="excerpt_main">
+							<div class="post-text">
+
+							<p>It seems like just two months ago (OK, it was exactly two months ago) that I announced our <a href="http://blog.stackoverflow.com/2013/02/max-oded-wendy-val-shefali-and-mike-welcome-to-the-family/">last batch</a> of new hires.  Today I&#8217;m pleased to introduce our newest employees.  There are TEN of them &#8230; so get comfy and prepare to learn all about our latest hires, who seem to have an overall fondness for food, sports, music, and the great outdoors.</p>
+<p><a href="http://blog.stackoverflow.com/wp-content/uploads/Brady-Jessica.jpg"><img class="alignleft size-full wp-image-13170" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Brady-Jessica.jpg" width="200" height="200" /></a><b>Jessica Brady, Associate Sales Representative (Careers 2.0)</b></p>
+<p><em>New York</em></p>
+<p>Jessica was born and raised in warm, sunny Florida, until she packed up and moved to less warm, less sunny Chicago for non-weather-related reasons (okay, it was school). She has lived in New York and worked in television for the last four years, but is excited to make the leap into a brand new industry at a great company like Stack Exchange. In her spare time, Jessica likes to run for fun, take in a baseball game (TV, radio, or in person), hang out with her four-legged friend Cash (like Johnny)…and yes, watch TV.</p>
+<p><strong><a href="http://stackoverflow.com/users/7028/sklivvz"><img class="alignleft size-full wp-image-13293" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Cecconi-Marco.jpg" width="200" height="200" /></a></strong></p>
+<p><strong>Marco Cecconi, Web Developer (Core)</strong></p>
+<p><em>London</em></p>
+<p>Marco is from Milan, Italy, and he has been traveling around the world for some years. He studied in Singapore, then worked in France, Portugal, and finally settled in the UK for the past four years where he lives in Kent with his wife and kid.  He goes by the handle of Sklivvz on the Stack Exchange network, where he has been a contributor since November 2008 and moderator on Skeptics since February 2011.</p>
+<p>&nbsp;</p>
+<p><strong><a href="http://blog.stackoverflow.com/wp-content/uploads/Depree-Pieter1.jpg"><img class="alignleft size-full wp-image-13295" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Depree-Pieter1.jpg" width="200" height="200" /></a></strong></p>
+<p><strong>Pieter DePree, Recruiter</strong></p>
+<p><em>New York</em></p>
+<p>Native to sunny Florida, Pieter decided to trade in his flip flops and board shorts for a piece of the good life here in the Big Apple.  Pieter has a passion for travel and has, at last count, traveled to 27 countries including a year spent living abroad in China. Previously, Pieter has been responsible for high volume regional sales recruitment at ADP, as well as the national sales recruitment at Seamless! Outside of work, you might find Pieter hiking, sailing, or playing volleyball.  Pieter is very excited to be helping Stack Exchange grow its global sales teams!</p>
+<p><strong><a href="http://blog.stackoverflow.com/wp-content/uploads/Egan-Jim.jpg"><img class="alignleft size-full wp-image-13296" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Egan-Jim.jpg" width="200" height="200" /></a></strong></p>
+<p><strong>Jim Egan, Sales Representative (Careers 2.0)</strong></p>
+<p><em>Denver<strong></strong></em></p>
+<p>Originally from the south side of Chicago, Jim now feels the need to argue with people in bars that Chicago is the greatest city in the world. He&#8217;s passionate about the Bears, Bulls, Blackhawks, and White Sox, so Jim couldn&#8217;t imagine a better sports town. Leaving that behind and moving to the Rockies was tough but needed.  Armed with his trusty sidekick Loomis (pictured here, left), Jim plans to conquer the mountains and everything Denver has to offer. An avid crock-potter and terrible at accents, Jim hopes to fit in nicely.</p>
+<p><strong></strong><strong><a href="http://blog.stackoverflow.com/wp-content/uploads/Frey-Paul.jpg"><img class="alignleft size-full wp-image-13297" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Frey-Paul.jpg" width="200" height="200" /></a>Paul Frey, Account Executive (Careers 2.0)</strong></p>
+<p><em>London</em></p>
+<p>Paul has lived in London since May 2010 and he loves it!  He was born and grew up in Cologne, Germany. Due to this fact he’s a big supporter of his local football club, FC Koeln. But he doesn’t just watch sports; he also loves to be very active, playing European handball up the third German division, and also squash and football. But his biggest passion is cooking and eating! His cooking style is experimental and cross culture…he never uses recipes, he just combines the things he knows and likes. Most of the time his cooking tastes good. ;-)</p>
+<p><strong><a href="http://blog.stackoverflow.com/wp-content/uploads/Jenkins-Todd.png"><img class="alignleft size-full wp-image-13298" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Jenkins-Todd.png" width="200" height="200" /></a>Todd Jenkins, Sales Representative (Careers 2.0)</strong></p>
+<p><em>London</em></p>
+<p>Todd originally hails from Boston (UK not US!) but now lives in London. He’s looking forward to transferring his sales skills to Stack Exchange! He really enjoys trying new foods and new restaurants, and he has a great love of the outdoors and adventurous walks. Apart from enjoying friends’ company in London&#8217;s nightlife, he does try to keep very sporty, although he admits shamefully that his two favourite sports are the two he’s the worst at (tennis and swimming). Todd is also a huge fan of Liverpool Football Club!!</p>
+<p><a href="http://blog.stackoverflow.com/wp-content/uploads/Malhotra-Shikha.jpg"><img class="alignleft size-full wp-image-13299" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Malhotra-Shikha.jpg" width="200" height="200" /></a></p>
+<p><strong>Shikha Malhotra, Account Executive (Careers 2.0)</strong></p>
+<p><em>London</em></p>
+<p>Shikha grew up in Brussels / Belgium and has an Indian background. She has been living in London for over 6 years, and is super excited to join Stack Exchange’s growing UK sales team. During her spare time you will find &#8220;DJ Shake&#8221; mixing the latest Bollywood tunes with a mix of French hip-hop and Arabic flavor, reading books, and learning to play the &#8220;Dhol&#8221; (Indian drum).</p>
+<p>&nbsp;</p>
+<p><a href="http://blog.stackoverflow.com/wp-content/uploads/Michalak-Pawel.jpg"><img class="alignleft size-full wp-image-13323" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Michalak-Pawel.jpg" width="200" height="200" /></a></p>
+<p><strong>Pawel Michalak, Sales Representative (Careers 2.0)</strong></p>
+<p><em>London</em></p>
+<p>Pawel is from Poznan, Poland and has lived in England for 7 years. He studied journalism and PR, and used to play handball (the best European sport ever!) quite seriously. He’s upgraded to playing football (the best international sport ever!), and can be found on London football pitches falling over, or screaming “Go Arsenal!” in support of the best football team in the world. You might see him on the road scooting cheerfully on his Vespa between angry Londoners stuck in traffic. He’s very excited about starting at Stack, as you can see here (CTAPT means START in Russian).</p>
+<p><a href="http://stackoverflow.com/users/115049/rossipedia"><img class="alignleft size-full wp-image-13324" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Ross-Bryan.jpg" width="200" height="200" /></a></p>
+<p><strong>Bryan Ross, Web Developer (Careers 2.0)</strong></p>
+<p><em>Denver</em></p>
+<p>An LA native, Bryan Ross (everybody just calls him &#8220;Ross&#8221;) moved to Denver in 2010 after being chewed up and spit out by the rock music industry. A self-taught developer of 15 years, he has an unhealthy interest in language design, expensive keyboards, strong coffee, and music. When he&#8217;s not nitpicking about the merits of various programming acronyms, he can usually be found writing, recording, and mixing in his home studio.</p>
+<p>&nbsp;</p>
+<p><a href="http://blog.stackoverflow.com/wp-content/uploads/Still-Derek.jpg"><img class="alignleft size-full wp-image-13327" style="border: 1px solid black;margin-right: 2em" alt="" src="http://blog.stackoverflow.com/wp-content/uploads/Still-Derek.jpg" width="200" height="200" /></a></p>
+<p><strong>Derek Still, Sales Representative (Careers 2.0)</strong></p>
+<p><em>New York</em></p>
+<p>Derek spent the first three years of his career in equity sales &amp; trading, and is excited about making the move to a growing firm with unlimited upside like Stack Exchange. He grew up in Philadelphia, spent summers in Cape Cod, and moved to the concrete jungle in 2010. Outside of the office, Derek spends his time traveling, rooting on Philadelphia sports teams (Go Birds), listening to the Grateful Dead, and hanging out with his brothers and friends.</p>
+<p>&nbsp;</p>
+<p><em>Visit our <a href="http://www.stackexchange.com/about/hiring">careers page</a> to learn all the reasons Stack Exchange is a ridiculously awesome place to work. </em><em>Want to see your face in our next new hire announcement? Here&#8217;s who we need:</em></p>
+<p><a href="http://careers.stackoverflow.com/jobs/28723/web-developer-stack-exchange-stack-exchange" target="_blank">Web Developer (NYC or telecommute)</a></p>
+<p><a href="http://careers.stackoverflow.com/jobs/24481/product-designer-stack-exchange">Senior Product Designer (NYC or telecommute)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/sales-representative-account-executive-london" target="_blank">Sales Representative / Account Executive (London)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/sales-representative-account-executive-denver" target="_blank">Sales Representative / Account Executive (Denver)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/sales-representative-account-executive-new-york" target="_blank">Sales Representative / Account Executive (NYC)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/senior-account-executive-digital-advertising-sales">Senior Account Executive, Digital Ad Sales (NYC)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/community-manager-new-york" target="_blank">Community Manager (NYC)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/community-manager-telecommute" target="_blank">Community Manager (telecommute)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/customer-and-sales-support-agent-london">Customer &amp; Sales Support Agent (London)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/customer-and-sales-support-agent-denver">Customer &amp; Sales Support Agent (Denver)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/inbound-marketing-manager">Inbound Marketing Manager (NYC)</a></p>
+<p><a href="http://stackexchange.com/about/hiring/marketing-manager-emea">Marketing Manager, EMEA (London)</a></p>
+ 
+							<p><a href="http://blog.stackoverflow.com/2013/04/get-to-know-the-new-stack-employees/#comments" class="comment-bubble">12</a> <a href="http://blog.stackoverflow.com/2013/04/get-to-know-the-new-stack-employees/#comments">comments</a></p>
+							</div>
+						</div>         
+					</div>
+									<div class="blog-summary">
+						<h2 class="blog-title"><a href="http://blog.stackoverflow.com/2013/04/introducing-our-careers-2-0-employer-resource-center/">Introducing our Careers 2.0 Employer Resource Center</a></h2>
+						<div class="meta-info">
+                        	 posted under <span class="post-category"><a href="http://blog.stackoverflow.com/category/announcement/" title="View all posts in announcement" rel="category tag">announcement</a>, <a href="http://blog.stackoverflow.com/category/careers/" title="View all posts in careers" rel="category tag">careers</a></span> by <a href="http://blog.stackoverflow.com/author/bethany/" title="Posts by Bethany Marzewski" rel="author">Bethany Marzewski</a> on
+                            <span class="postedDate">04-15-13</span> <a href="http://blog.stackoverflow.com/2013/04/introducing-our-careers-2-0-employer-resource-center/#comments" class="comment-bubble">2</a>
+						</div>
+
+						<div class="excerpt_main">
+							<div class="post-text">
+
+							<p><a href="http://blog.stackoverflow.com/2011/02/careers-2-0-launches/">When we launched Careers 2.0 back in 2011</a>, we set out with a goal: make the job search process better for the millions of programmers who visit our site every month. Part of achieving this goal is educating employers about what <em>you</em> want from them. In the past, our <a href="http://blog.stackoverflow.com/2013/01/2012-stack-overflow-user-survey-results/">annual user survey</a> helped us help companies change the way they found and hired programmers, while <a href="http://www.amazon.com/Smart-Gets-Things-Done-Technical/dp/1590598385">Joel’s book on how to find the best technical talent</a> and his talk on <a href="http://www.ereexpo.com/2012spring/speakers/3993/">how to stand out and attract top talent</a> are a few other examples of how we&#8217;ve worked to educate tech companies on what you really want. </p>
+<p>Today, we’re taking this one step further:</p>
+<h2><a href="http://careers.stackoverflow.com/resources">Announcing the Employer Resource Center on Careers 2.0<br />
+<img src="http://i.stack.imgur.com/OunjM.png" alt="screenshot of the employer resource center"></a></h2>
+<p>Employers are having a really hard time getting programmers to work for them &mdash; hardly a day goes by without another article, blog post or Tweet attesting to this. A study last year found that as many as <a href="http://www.huffingtonpost.com/2012/03/13/it-skills-gap-study_n_1341385.html">93% of employers</a> find a disparity between the technical skills required and the level of the talent they’re able to find while recruiting. As a result, talented programmers are in incredibly high demand, putting you in a position to demand the best jobs, perks, and benefits. </p>
+<p>In the <a href="http://careers.stackoverflow.com/resources">Employer Resource Center</a>, we offer advice on best practices, recruitment news and trends, case studies and product guides to help employers with developer hiring. We’ll be updating the content regularly (mostly via the new <a href="http://blog.careers.stackoverflow.com/">Careers 2.0 blog</a>), so check back often! If you have any tips you think employers should know about hiring developers, please leave a note in the comments below. </p>
+ 
+							<p><a href="http://blog.stackoverflow.com/2013/04/introducing-our-careers-2-0-employer-resource-center/#comments" class="comment-bubble">2</a> <a href="http://blog.stackoverflow.com/2013/04/introducing-our-careers-2-0-employer-resource-center/#comments">comments</a></p>
+							</div>
+						</div>         
+					</div>
+									<div class="blog-summary">
+						<h2 class="blog-title"><a href="http://blog.stackoverflow.com/2013/03/podcast-46-the-podcast-that-sounds-dirty-but-isnt/">Podcast #46 &#8211; The Podcast That Sounds Dirty But Isn&#8217;t</a></h2>
+						<div class="meta-info">
+                        	 posted under <span class="post-category"><a href="http://blog.stackoverflow.com/category/podcasts/" title="View all posts in podcasts" rel="category tag">podcasts</a></span> by <a href="http://blog.stackoverflow.com/author/alex/" title="Posts by Alex Miller" rel="author">Alex Miller</a> on
+                            <span class="postedDate">03-27-13</span> <a href="http://blog.stackoverflow.com/2013/03/podcast-46-the-podcast-that-sounds-dirty-but-isnt/#comments" class="comment-bubble">11</a>
+						</div>
+
+						<div class="excerpt_main">
+							<div class="post-text">
+
+							<p>Our guest this week (after she joins a bit late) is Zuly Gonzalez &#8211; Stack Exchange moderator and power user.  As usual, we also have David Fullerton, Jay Hanlon, Joel Spolsky and (Fake) Producer Alex!</p>
+<ul>
+<li>Things are a mess over here, not just because we have to remember to stop masticating long enough to talk about podcast things. We&#8217;re moving offices! The office is full of crates into which we have to pack all our stuff before we move.</li>
+<li>The new office is going to be awesome. It has hexagonal offices, and we don&#8217;t remember if we&#8217;ve talked about this before.</li>
+<li>We have three chefs competing to be the chef for the new Stack Exchange office, and it&#8217;s apparently a very desirable position, because they keep bribing Joel with treats.</li>
+<li>What&#8217;s really going on? Our <a href="http://tridion.stackexchange.com/">Tridion</a> site went into public beta. It&#8217;s different from <a href="http://magento.stackexchange.com/">the one that sounds like Magneto</a>!</li>
+<li>For very small and/or very new sites, Joel thinks it might be useful to be able to email opted-in users every time a new question comes in.</li>
+<li>Let&#8217;s talk about the new user homepage, shall we? It&#8217;s exciting! We&#8217;ve been doing a lot of work about new user experience, and the homepage new users now see will finally be optimized for helping them figure out what to do next.</li>
+<li>Meanwhile, our guest has arrived! Welcome, <a href="http://answers.onstartups.com/users/2692/zuly-gonzalez">Zuly</a>! She&#8217;s a moderator on <a href="http://answers.onstartups.com/">OnStartups</a> as well as a co-founder of <a href="http://lightpointsecurity.com/">Light Point Security</a>, a web security startup that provides malware protection through the use of cloud-based web browsing.</li>
+<li>Zuly walks us through some of the history of OnStartups, the things that make the site work really well and ways in which the site could be improved.</li>
+<li>So what&#8217;s the prognosis? Zuly would like to see people get more involved with the community aspect of the site, and with moderation.</li>
+<li>Moving on to questions of security. Zuly (and Joel) observe a move in the field of IT Security away from detection and protection against major threats and toward isolation (the Battlestar Galactica defense).</li>
+<li>Jay thinks everyone screaming homophobic slurs into Xbox headsets is German. Nobody is completely sure why.</li>
+<li>Jay wonders, what about real people? What things should normal people be thinking about in terms of security that most people still don&#8217;t do?</li>
+<li>One other very serious question: Is <a href="https://twitter.com/ZulyGonz/status/283671703459086336/photo/1">Zuly&#8217;s dog</a> cuter than <a href="https://twitter.com/spolsky/status/310049502901989377/photo/1">Joel&#8217;s dog</a>? Dog Talk ensues!</li>
+<li>Time to discuss a Meta question: <a href="http://meta.stackoverflow.com/questions/171763/how-can-we-stop-premature-deletion">how can we stop premature deletion</a>?</li>
+</ul>
+<p>That&#8217;s a wrap! You&#8217;ve been listening to Stack Exchange Podcast #46 with special guest Zuly Gonzalez and the rest of the regular gang! Join us next time from our brand new podcast studio &#8211; it&#8217;s going to be awesome (but the podcast will still be terrible).</p>
+<p>&nbsp;<br />
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F85215663&#038;show_artwork=true"></iframe><br />
+&nbsp;</p>
+<div class="podPress_content podPress_content_audio_mp3"><div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/85215663-stack-exchange-stack-exchange-podcast-46.mp3" target="new" title="Download: SE Podcast #46 - The Podcast That Sounds Dirty But Isn&#039;t" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://blog.stackoverflow.com/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">SE Podcast #46 - The Podcast That Sounds Dirty But Isn&#039;t</span> <span class="podpress_mediafile_dursize podpress_mediafile_dursize_audio_mp3">[ 52:32 ]</span> <a href="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/85215663-stack-exchange-stack-exchange-podcast-46.mp3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a></div></div>
+<script type="text/javascript"></script> 
+							<p><a href="http://blog.stackoverflow.com/2013/03/podcast-46-the-podcast-that-sounds-dirty-but-isnt/#comments" class="comment-bubble">11</a> <a href="http://blog.stackoverflow.com/2013/03/podcast-46-the-podcast-that-sounds-dirty-but-isnt/#comments">comments</a></p>
+							</div>
+						</div>         
+					</div>
+				  		
+		
+		  	<div class="navigation">
+				<div class="previous-entries"><a href="http://blog.stackoverflow.com/page/2/?blb=1" >&laquo; Older Entries</a></div>
+				<div class="next-entries"></div>
+			</div> 
+        </div>
+
+
+     <div id="sidebar">
+		
+		
+                        
+            <div id="hireme" class="hireme blog module" style="min-height:220px"></div> 
+             
+            <script type="text/javascript"> 
+                setTimeout(function () { 
+                    var a = document.createElement("script"); 
+                    var b = document.getElementsByTagName('script')[0]; 
+                    a.src = "http://careers.stackoverflow.com/ad/js?blog"; 
+                    a.async = true;  
+                    a.type = "text/javascript";  
+                    b.parentNode.insertBefore(a, b); 
+                }, 5); 
+            </script>
+
+
+            <div class="module">
+            	<h4>Recent</h4>
+            
+				<ul>
+						<li><a href='http://blog.stackoverflow.com/2013/05/showing-off-those-valued-associates/' title='Company pages on Careers 2.0'>Company pages on Careers 2.0</a></li>
+	<li><a href='http://blog.stackoverflow.com/2013/05/podcast-47-do-you-even-twitter-bro/' title='Podcast #47 &#8211; Do You Even Twitter Bro?'>Podcast #47 &#8211; Do You Even Twitter Bro?</a></li>
+	<li><a href='http://blog.stackoverflow.com/2013/04/get-to-know-the-new-stack-employees/' title='Get to know the new Stack employees'>Get to know the new Stack employees</a></li>
+	<li><a href='http://blog.stackoverflow.com/2013/04/introducing-our-careers-2-0-employer-resource-center/' title='Introducing our Careers 2.0 Employer Resource Center'>Introducing our Careers 2.0 Employer Resource Center</a></li>
+	<li><a href='http://blog.stackoverflow.com/2013/03/podcast-46-the-podcast-that-sounds-dirty-but-isnt/' title='Podcast #46 &#8211; The Podcast That Sounds Dirty But Isn&#8217;t'>Podcast #46 &#8211; The Podcast That Sounds Dirty But Isn&#8217;t</a></li>
+				</ul>  
+				<p class="fr"><a href="/archive/">view all posts</a></p>
+            </div> 			         
+			
+            <div class="module">
+            	<h4>Topics</h4>
+				<ul class="twoCol post-category">
+						<li class="cat-item cat-item-22"><a href="http://blog.stackoverflow.com/category/announcement/" title="View all posts filed under announcement">announcement</a> (49)
+</li>
+	<li class="cat-item cat-item-23"><a href="http://blog.stackoverflow.com/category/api/" title="View all posts filed under API">API</a> (13)
+</li>
+	<li class="cat-item cat-item-24"><a href="http://blog.stackoverflow.com/category/area51/" title="View all posts filed under Area51">Area51</a> (15)
+</li>
+	<li class="cat-item cat-item-9"><a href="http://blog.stackoverflow.com/category/background/" title="View all posts filed under background">background</a> (114)
+</li>
+	<li class="cat-item cat-item-11"><a href="http://blog.stackoverflow.com/category/beta/" title="View all posts filed under Beta">Beta</a> (18)
+</li>
+	<li class="cat-item cat-item-28"><a href="http://blog.stackoverflow.com/category/blogoverflow/" title="View all posts filed under blogoverflow">blogoverflow</a> (2)
+</li>
+	<li class="cat-item cat-item-19"><a href="http://blog.stackoverflow.com/category/careers/" title="View all posts filed under careers">careers</a> (23)
+</li>
+	<li class="cat-item cat-item-16"><a href="http://blog.stackoverflow.com/category/cc-wiki-dump/" title="View all posts filed under cc-wiki-dump">cc-wiki-dump</a> (10)
+</li>
+	<li class="cat-item cat-item-52"><a href="http://blog.stackoverflow.com/category/chaos/" title="View all posts filed under chaos">chaos</a> (5)
+</li>
+	<li class="cat-item cat-item-13"><a href="http://blog.stackoverflow.com/category/community/" title="View all posts filed under community">community</a> (213)
+</li>
+	<li class="cat-item cat-item-56"><a href="http://blog.stackoverflow.com/category/denver/" title="View all posts filed under denver">denver</a> (3)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://blog.stackoverflow.com/category/design/" title="View all posts filed under design">design</a> (118)
+</li>
+	<li class="cat-item cat-item-25"><a href="http://blog.stackoverflow.com/category/devdays/" title="View all posts filed under devdays">devdays</a> (6)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://blog.stackoverflow.com/category/legal/" title="View all posts filed under legal">legal</a> (6)
+</li>
+	<li class="cat-item cat-item-55"><a href="http://blog.stackoverflow.com/category/meetups/" title="View all posts filed under meetups">meetups</a> (5)
+</li>
+	<li class="cat-item cat-item-21"><a href="http://blog.stackoverflow.com/category/moderators/" title="View all posts filed under moderators">moderators</a> (14)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://blog.stackoverflow.com/category/podcasts/" title="View all posts filed under podcasts">podcasts</a> (148)
+</li>
+	<li class="cat-item cat-item-53"><a href="http://blog.stackoverflow.com/category/promotion/" title="View all posts filed under promotion">promotion</a> (11)
+</li>
+	<li class="cat-item cat-item-26"><a href="http://blog.stackoverflow.com/category/reference/" title="View all posts filed under reference">reference</a> (28)
+</li>
+	<li class="cat-item cat-item-6"><a href="http://blog.stackoverflow.com/category/server/" title="View all posts filed under server">server</a> (31)
+</li>
+	<li class="cat-item cat-item-14"><a href="http://blog.stackoverflow.com/category/serverfaultcom/" title="View all posts filed under serverfault.com">serverfault.com</a> (34)
+</li>
+	<li class="cat-item cat-item-18"><a href="http://blog.stackoverflow.com/category/stackexchange/" title="View all posts filed under stackexchange">stackexchange</a> (112)
+</li>
+	<li class="cat-item cat-item-27"><a href="http://blog.stackoverflow.com/category/stackoverflow/" title="View all posts filed under stackoverflow">stackoverflow</a> (15)
+</li>
+	<li class="cat-item cat-item-15"><a href="http://blog.stackoverflow.com/category/superusercom/" title="View all posts filed under superuser.com">superuser.com</a> (33)
+</li>
+				</ul> 
+            </div>   
+            
+			
+			 	
+            
+
+                        
+            <div class="module">
+            	<h4>Proud Supporter of:</h4><br />
+                
+                <a href="http://www.microsoft.com/bizspark/"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/biz-spark.png" alt="BizSparkDB" /></a><br />
+                <a href="http://www.mathjax.org/sponsors/"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/mathjax.png" alt="MathJax" /></a><br />
+                <a href="http://tug.org/instmem.html"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/tex.png" alt="Institutional members of the TeX Users Group" /></a>
+            </div>	
+            
+			<div class="module">
+				<a href="http://blog.stackoverflow.com/feed/"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/ico_rss.png" alt="Subscribe to our RSS feed" /> Subscribe via RSS</a><br />
+                <a href="https://twitter.com/#!/stackexchange" class="btn-share"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/twitter.png" alt="twitter"/></a>
+                <a href="https://www.facebook.com/stackexchange" class="btn-share"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/facebook.png" alt="facebook"/></a>
+                <a href="https://plus.google.com/u/0/101120115153580954446/posts" class="btn-share"><img src="http://blog.stackoverflow.com/wp-content/themes/se-new/images/gplus.png" alt="G-Plus"/></a>                                
+			</div>            	
+            
+	</div>               
+		
+	</section> <!-- Main Content End -->
+
+
+    
+             
+</div>    
+
+	<div id="footer">
+		<div class="footerwrap">
+        <p>Stack Exchange © 2013<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0; " src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png"></a><br><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Sound" property="dc:title" rel="dc:type">blog content and podcasts</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License</a>.</p>			 
+
+		</div>
+	</div>
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5620270-26']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.483 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2013-05-30 06:58:34 -->

@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+    <title>Electrical Engineering Stack Exchange</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/electronics/img/favicon.ico">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/electronics/img/apple-touch-icon.png">
+    <link rel="search" type="application/opensearchdescription+xml" title="Electrical Engineering Stack Exchange" href="/opensearch.xml">
+    
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.sstatic.net/js/stub.js?v=62072796f399"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/electronics/all.css?v=a80301f446b2">
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed of recent questions" href="/feeds">
+            <script type="text/javascript" defer>
+            StackExchange.using("gps", function() {
+                StackExchange.gps.track("homepage.show", {
+                       
+                    }, true);
+            });
+        </script>
+
+
+                <script type="text/x-mathjax-config">
+                    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+                                        tex2jax: { inlineMath: [ ["\\$", "\\$"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+                                        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+                                        messageStyle: "none"
+                });
+                </script>
+                <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>                
+
+    <script type="text/javascript">
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('ws://sockets.ny.stackexchange.com:80');
+            StackExchange.realtime.subscribeToInboxNotifications();
+                    StackExchange.realtime.subscribeToReputationNotifications('135');
+                });
+    </script>
+    <script type="text/javascript">
+        StackExchange.init({"stackAuthUrl":"https://stackauth.com","serverTime":1369922314,"styleCode":true,"enableUserHovercards":true,"site":{"name":"Electrical Engineering Stack Exchange","description":"Q&A for electronics and electrical engineering professionals, students, and enthusiasts","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","useNewStyleFavoriteTagsEditor":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"279532519dd908415c3aba4bd621ff16","isAnonymous":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.js":"6c261bebf56a","js/moderator.js":"f96f7e4ee5dc","js/full-anon.js":"0916c60ba5ef","js/full.js":"ee8dc25807f6","js/wmd.js":"61154666d6ef","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/mobile.js":"6eb68240242f","js/help.js":"fc9fb0517db2","js/tageditor.js":"450c9e8426fc","js/tageditornew.js":"b6c68ad4c7dd","js/inline-tag-editing.js":"8e84e8a137f7","js/revisions.js":"7273bb714bba","js/review.js":"56c3941a5bfc","js/tagsuggestions.js":"aa48ef6154df","js/post-validation.js":"4aec80fc0009","js/explore-qlist.js":"1c5bbd79b562"});
+        StackExchange.using.setCacheBreakers({"js/mathjax-editing.js":"6da1b6cfe19f","js/external-editor.js":"7611a5aa8cba"});
+    </script>
+    <script type="text/javascript">
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script type="text/javascript">
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+</head>
+<body class="home-page">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+    <div class="container">
+        <div id="header" class=headeranon>
+            <div id="portalLink">
+                <a class="genu" href="http://stackexchange.com" onclick="StackExchange.ready(function(){genuwine.click();});return false;">Stack Exchange</a>
+            </div>
+            <div id="topbar">
+                <div id="hlinks">
+                    
+<span id="hlinks-user"></span>
+<span id="hlinks-nav">                        <a href="/users/login">sign up</a>
+
+ <span class="lsep">|</span>
+                    <a href="/users/login">log in</a>
+
+ <span class="lsep">|</span>
+</span>
+<span id="hlinks-custom"></span>
+                </div>
+                <div id="hsearch">
+                    <form id="search" action="/search" method="get" autocomplete="off">
+                        <div>
+                            <input autocomplete="off" name="q" class="textbox" placeholder="search" tabindex="1" type="text" maxlength="240" size="28" value="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    Electrical Engineering
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs mainnavsanon">
+                    <ul>
+                            <li><a id="nav-questions" href="/questions">Questions</a></li>
+                            <li><a id="nav-tags" href="/tags">Tags</a></li>
+                            <li><a id="nav-tour" href="/about">Tour</a></li>
+                            <li><a id="nav-users" href="/users">Users</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+        <div id="content">
+            
+<div id="herobox">
+    <div id="hero-content">
+            <div id="close"><a title="click to minimize">_</a></div>
+        <div id="blurb">
+            <span id="site-name">Electrical Engineering Stack Exchange</span> is a question and answer site for 
+            electronics and electrical engineering professionals, students, and enthusiasts. It's 100% free, no registration required.
+            <br />
+            <br />
+            <a href="/about" id="tell-me-more" class="button">Tell me more</a>
+        </div>
+        <div id="desc">
+            <b>Here's how it works:</b>
+            <ol id="hiw">
+                <li id="q">Anybody can ask a question
+                </li>
+                <li id="an">Anybody can answer
+                </li>
+                <li id="b">The best answers are voted up and rise to the top
+                </li>
+            </ol>
+        </div>
+    </div>
+    <script>
+        $('#herobox li').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true);
+            });
+
+            window.location.href = '/about';
+        });
+        $('#tell-me-more').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true);
+            });
+        });
+        $('#herobox #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "minimize" }, true);
+            });
+            $.cookie("hero", "mini", { path: "/" });
+            $.ajax({
+                url: "/hero-mini",
+                success: function (data) {
+                    $("#herobox").fadeOut("fast", function () {
+                        $("#herobox").replaceWith(data);
+                        $("#herobox-mini").fadeIn("fast");
+                    });
+                }
+            });
+            return false;
+        });
+    </script>
+</div>
+    <script type="text/javascript" defer>
+        StackExchange.using("gps", function () {
+            StackExchange.gps.track("hero.show", { hero_type: "hero" }, true);
+        });
+    </script>
+<div id="mainbar">
+
+
+    <div class="subheader"><h1 id="h-top-questions">Explore Our Questions</h1></div>
+    <div id="explore-tags">
+                <a href="/?tags=arduino" class="post-tag no-tag-menu" title="Show questions relating to arduino" rel="tag">arduino</a>
+                <a href="/?tags=microcontroller" class="post-tag no-tag-menu" title="Show questions relating to microcontroller" rel="tag">microcontroller</a>
+                <a href="/?tags=power-supply" class="post-tag no-tag-menu" title="Show questions relating to power-supply" rel="tag">power-supply</a>
+                <a href="/?tags=led" class="post-tag no-tag-menu" title="Show questions relating to led" rel="tag">led</a>
+                <a href="/?tags=power" class="post-tag no-tag-menu" title="Show questions relating to power" rel="tag">power</a>
+                <a href="/?tags=pic" class="post-tag no-tag-menu" title="Show questions relating to pic" rel="tag">pic</a>
+                <a href="/?tags=batteries" class="post-tag no-tag-menu" title="Show questions relating to batteries" rel="tag">batteries</a>
+                <a href="/?tags=voltage" class="post-tag no-tag-menu" title="Show questions relating to voltage" rel="tag">voltage</a>
+                <a href="/?tags=pcb" class="post-tag no-tag-menu" title="Show questions relating to pcb" rel="tag">pcb</a>
+                <a href="/?tags=transistors" class="post-tag no-tag-menu" title="Show questions relating to transistors" rel="tag">transistors</a>
+             <a class="more-tags" href="/tags">more&nbsp;tags</a>
+
+    </div>
+<div id="qlist-wrapper"><div id="question-mini-list">
+
+
+<div class="question-summary narrow" id="question-summary-67803" >
+    <div onclick="window.location.href='/questions/67803/how-can-anyone-use-a-microcontroller-which-has-only-384-bytes-of-program-memory'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">40</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">9</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='3574 views'>4</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/67803/how-can-anyone-use-a-microcontroller-which-has-only-384-bytes-of-program-memory" class="question-hyperlink" title="For instance a PIC10F200T
+
+Virtually any code you write will be larger than that, unless it is a single purpose chip. Is there any way to load more program memory from external storage or something? ...">How can anyone use a microcontroller which has only 384 bytes of program memory?</a></h3>
+        <div class="tags t-microcontroller t-pic t-memory t-storage">
+            <a href="/questions/tagged/microcontroller" class="post-tag" title="show questions tagged 'microcontroller'" rel="tag">microcontroller</a> <a href="/questions/tagged/pic" class="post-tag" title="show questions tagged 'pic'" rel="tag">pic</a> <a href="/questions/tagged/memory" class="post-tag" title="show questions tagged 'memory'" rel="tag">memory</a> <a href="/questions/tagged/storage" class="post-tag" title="show questions tagged 'storage'" rel="tag">storage</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/67803/how-can-anyone-use-a-microcontroller-which-has-only-384-bytes-of-program-memory/?lastactivity" class="started-link"><span title="2013-05-26 05:35:31Z" class="relativetime">may 26 at 5:35</span></a>
+            <a href="/users/24390/user24390">user24390</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-67975" >
+    <div onclick="window.location.href='/questions/67975/what-is-the-reason-that-the-value-47-is-so-popular-in-electrical-engineering'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">44</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='2808 views'>3</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/67975/what-is-the-reason-that-the-value-47-is-so-popular-in-electrical-engineering" class="question-hyperlink" title="We often see component values of 4.7K Ohm, 470uF, or 0.47uH.  For example, digikey has millions of 4.7uF ceramic capacitors, and not a single 4.8uF or 4.6uF and only 1 listed for 4.5uF (specialty ...">What is the reason that the value &ldquo;47&rdquo; is so popular in electrical engineering?</a></h3>
+        <div class="tags t-component-selection t-history t-passive-components">
+            <a href="/questions/tagged/component-selection" class="post-tag" title="show questions tagged 'component-selection'" rel="tag">component-selection</a> <a href="/questions/tagged/history" class="post-tag" title="show questions tagged 'history'" rel="tag">history</a> <a href="/questions/tagged/passive-components" class="post-tag" title="show questions tagged 'passive-components'" rel="tag">passive-components</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/67975/what-is-the-reason-that-the-value-47-is-so-popular-in-electrical-engineering/?lastactivity" class="started-link"><span title="2013-05-03 19:47:27Z" class="relativetime">may 3 at 19:47</span></a>
+            <a href="/users/20218/andy-aka">Andy aka</a> <span class="reputation-score" title="reputation score" dir="ltr">6,817</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-68406" >
+    <div onclick="window.location.href='/questions/68406/why-do-capacitors-lose-capacitance-in-series'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">16</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">7</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1174 views'>1</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/68406/why-do-capacitors-lose-capacitance-in-series" class="question-hyperlink" title="Unlike rechargeable batteries, capacitors have a lower capacitance in series. Why is this and if I charge each cap separately and then put them in series, will it still be a lower capacitance? 
+">Why do capacitors lose capacitance in series?</a></h3>
+        <div class="tags t-capacitor">
+            <a href="/questions/tagged/capacitor" class="post-tag" title="show questions tagged 'capacitor'" rel="tag">capacitor</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/68406/why-do-capacitors-lose-capacitance-in-series/?lastactivity" class="started-link"><span title="2013-05-07 20:14:44Z" class="relativetime">may 7 at 20:14</span></a>
+            <a href="/users/10475/alfred-centauri">Alfred Centauri</a> <span class="reputation-score" title="reputation score" dir="ltr">4,610</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-69965" >
+    <div onclick="window.location.href='/questions/69965/is-there-a-difference-between-using-a-built-in-spi-module-and-bit-banging'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">17</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">5</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">511</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/69965/is-there-a-difference-between-using-a-built-in-spi-module-and-bit-banging" class="question-hyperlink" title="Is there a difference between the two, or is it just a matter of abstraction? My intuition says there&#39;s no difference but I&#39;d love to be wrong.
+">Is there a difference between using a built in SPI module and bit-banging?</a></h3>
+        <div class="tags t-microcontroller t-spi">
+            <a href="/questions/tagged/microcontroller" class="post-tag" title="show questions tagged 'microcontroller'" rel="tag">microcontroller</a> <a href="/questions/tagged/spi" class="post-tag" title="show questions tagged 'spi'" rel="tag">spi</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/69965/is-there-a-difference-between-using-a-built-in-spi-module-and-bit-banging/?lastactivity" class="started-link"><span title="2013-05-26 05:33:03Z" class="relativetime">may 26 at 5:33</span></a>
+            <a href="/users/24390/user24390">user24390</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-68309" >
+    <div onclick="window.location.href='/questions/68309/do-engineers-still-design-for-volume-using-discrete-through-hole-bipolar-transis'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">16</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">770</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/68309/do-engineers-still-design-for-volume-using-discrete-through-hole-bipolar-transis" class="question-hyperlink" title="As a hobbyist who likes plugging BJTs and discrete components into solderless breadboard for entertainment and education, I recognise that people like me are an insufficient market to make it ...">Do engineers still design for volume using discrete through-hole bipolar transistors?</a></h3>
+        <div class="tags t-design t-bjt t-555 t-through-hole">
+            <a href="/questions/tagged/design" class="post-tag" title="show questions tagged 'design'" rel="tag">design</a> <a href="/questions/tagged/bjt" class="post-tag" title="show questions tagged 'bjt'" rel="tag">bjt</a> <a href="/questions/tagged/555" class="post-tag" title="show questions tagged '555'" rel="tag">555</a> <a href="/questions/tagged/through-hole" class="post-tag" title="show questions tagged 'through-hole'" rel="tag">through-hole</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/68309/do-engineers-still-design-for-volume-using-discrete-through-hole-bipolar-transis/?lastactivity" class="started-link"><span title="2013-05-06 12:34:03Z" class="relativetime">may 6 at 12:34</span></a>
+            <a href="/users/2255/lyndon">lyndon</a> <span class="reputation-score" title="reputation score" dir="ltr">2,162</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-68638" >
+    <div onclick="window.location.href='/questions/68638/why-is-it-desirable-in-an-amplifier-to-have-high-input-impedance-and-low-output'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">9</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">518</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/68638/why-is-it-desirable-in-an-amplifier-to-have-high-input-impedance-and-low-output" class="question-hyperlink" title="I&#39;ve learned that it&#39;s desirable in an ideal amplifier to have high input impedance and low output impedance. Why exactly? What are the implications an amplifier has the opposite- low input impedance ...">Why is it desirable in an amplifier to have high input impedance and low output impedance?</a></h3>
+        <div class="tags t-amplifier">
+            <a href="/questions/tagged/amplifier" class="post-tag" title="show questions tagged 'amplifier'" rel="tag">amplifier</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/68638/why-is-it-desirable-in-an-amplifier-to-have-high-input-impedance-and-low-output/?lastactivity" class="started-link"><span title="2013-05-09 07:43:39Z" class="relativetime">may 9 at 7:43</span></a>
+            <a href="/users/16880/david">david</a> <span class="reputation-score" title="reputation score" dir="ltr">334</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-69661" >
+    <div onclick="window.location.href='/questions/69661/why-are-high-end-audio-connections-gold'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">4</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">457</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/69661/why-are-high-end-audio-connections-gold" class="question-hyperlink" title="Silver has a lower resistivity than gold and is cheaper, so why are high end audio components gold plated? 
+">Why are high end audio connections gold?</a></h3>
+        <div class="tags t-audio">
+            <a href="/questions/tagged/audio" class="post-tag" title="show questions tagged 'audio'" rel="tag">audio</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/69661/why-are-high-end-audio-connections-gold/?lastactivity" class="started-link"><span title="2013-05-18 10:37:09Z" class="relativetime">may 18 at 10:37</span></a>
+            <a href="/users/16324/brian-drummond">Brian Drummond</a> <span class="reputation-score" title="reputation score" dir="ltr">9,372</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-70477" >
+    <div onclick="window.location.href='/questions/70477/single-led-single-transistor-circuit-not-working'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">4</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">275</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/70477/single-led-single-transistor-circuit-not-working" class="question-hyperlink" title="I was making a circuit with 1 LED and 1 transistor. pretty primarily i was trying to use the transistor as a normal switch. Here is the diagram below.
+
+So, this is an NPN transistor and i connected ...">Single LED single transistor circuit not working</a></h3>
+        <div class="tags t-led t-transistors t-resistors t-npn">
+            <a href="/questions/tagged/led" class="post-tag" title="show questions tagged 'led'" rel="tag">led</a> <a href="/questions/tagged/transistors" class="post-tag" title="show questions tagged 'transistors'" rel="tag">transistors</a> <a href="/questions/tagged/resistors" class="post-tag" title="show questions tagged 'resistors'" rel="tag">resistors</a> <a href="/questions/tagged/npn" class="post-tag" title="show questions tagged 'npn'" rel="tag">npn</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/70477/single-led-single-transistor-circuit-not-working/?lastactivity" class="started-link"><span title="2013-05-25 20:08:34Z" class="relativetime">may 25 at 20:08</span></a>
+            <a href="/users/-1/community">Community</a><span class="mod-flair" title="moderator">&#9830;</span> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-69028" >
+    <div onclick="window.location.href='/questions/69028/does-anyone-remember-this-article-about-the-euclidean-algorithm'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">11</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">413</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/69028/does-anyone-remember-this-article-about-the-euclidean-algorithm" class="question-hyperlink" title="In the 70&#39;s I had a stack of old Amateur Radio magazines (50s-60s), and for a long time I saved an article about using the Euclidian Algorithm to combine a number of resistors to achieve a specific ...">Does anyone remember this article about the Euclidean Algorithm?</a></h3>
+        <div class="tags t-resistors">
+            <a href="/questions/tagged/resistors" class="post-tag" title="show questions tagged 'resistors'" rel="tag">resistors</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/69028/does-anyone-remember-this-article-about-the-euclidean-algorithm/?lastactivity" class="started-link"><span title="2013-05-13 10:09:03Z" class="relativetime">may 13 at 10:09</span></a>
+            <a href="/users/23823/gene-m">Gene M.</a> <span class="reputation-score" title="reputation score" dir="ltr">161</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-70009" >
+    <div onclick="window.location.href='/questions/70009/why-use-a-pull-down-resistor-with-a-ldr-and-microcontroller'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">5</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">238</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/70009/why-use-a-pull-down-resistor-with-a-ldr-and-microcontroller" class="question-hyperlink" title="I am looking at this:
+http://learn.adafruit.com/photocells/using-a-photocell
+
+It&#39;s connecting VCC &lt;-> LDR &lt;-> resistor &lt;-> GND. And the analog input is between the LDR and the ...">Why use a pull-down resistor with a LDR and microcontroller?</a></h3>
+        <div class="tags t-microcontroller t-pulldown t-ldr">
+            <a href="/questions/tagged/microcontroller" class="post-tag" title="show questions tagged 'microcontroller'" rel="tag">microcontroller</a> <a href="/questions/tagged/pulldown" class="post-tag" title="show questions tagged 'pulldown'" rel="tag">pulldown</a> <a href="/questions/tagged/ldr" class="post-tag" title="show questions tagged 'ldr'" rel="tag">ldr</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/70009/why-use-a-pull-down-resistor-with-a-ldr-and-microcontroller/?lastactivity" class="started-link"><span title="2013-05-21 14:51:58Z" class="relativetime">may 21 at 14:51</span></a>
+            <a href="/users/17592/camil-staps">Camil Staps</a> <span class="reputation-score" title="reputation score" dir="ltr">4,485</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-68519" >
+    <div onclick="window.location.href='/questions/68519/does-this-device-which-claims-to-reduce-reactive-energy-from-a-house-work'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">15</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">471</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/68519/does-this-device-which-claims-to-reduce-reactive-energy-from-a-house-work" class="question-hyperlink" title="I&#39;ve opened a device that states that it can reduce the reactive energy from a house, by plugin it directly to the power outlet/wall socket. I think it is a con, so I&#39;ve opened it and I saw this black ...">Does this device which claims to reduce reactive energy from a house work?</a></h3>
+        <div class="tags t-power t-ac t-energy">
+            <a href="/questions/tagged/power" class="post-tag" title="show questions tagged 'power'" rel="tag">power</a> <a href="/questions/tagged/ac" class="post-tag" title="show questions tagged 'ac'" rel="tag">ac</a> <a href="/questions/tagged/energy" class="post-tag" title="show questions tagged 'energy'" rel="tag">energy</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/68519/does-this-device-which-claims-to-reduce-reactive-energy-from-a-house-work/?lastactivity" class="started-link"><span title="2013-05-17 22:05:38Z" class="relativetime">may 17 at 22:05</span></a>
+            <a href="/users/230/kortuk">Kortuk</a><span class="mod-flair" title="moderator">&#9830;</span> <span class="reputation-score" title="reputation score" dir="ltr">8,829</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-67838" >
+    <div onclick="window.location.href='/questions/67838/if-we-could-start-our-electrical-grid-from-scratch-with-todays-technology-whic'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">27</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">549</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/67838/if-we-could-start-our-electrical-grid-from-scratch-with-todays-technology-whic" class="question-hyperlink" title="Lately, I’ve been reading about the many advantages of HVDC transmission systems for long distance transmission, undersea links, and others. The historical reason of why AC was picked over DC was ...">If we could start our electrical grid from scratch with today&#39;s technology, which would be the most efficient choice? AC or DC?</a></h3>
+        <div class="tags t-mains t-efficiency t-transmission-line t-grid t-ac-dc">
+            <a href="/questions/tagged/mains" class="post-tag" title="show questions tagged 'mains'" rel="tag">mains</a> <a href="/questions/tagged/efficiency" class="post-tag" title="show questions tagged 'efficiency'" rel="tag">efficiency</a> <a href="/questions/tagged/transmission-line" class="post-tag" title="show questions tagged 'transmission-line'" rel="tag">transmission-line</a> <a href="/questions/tagged/grid" class="post-tag" title="show questions tagged 'grid'" rel="tag">grid</a> <a href="/questions/tagged/ac-dc" class="post-tag" title="show questions tagged 'ac-dc'" rel="tag">ac-dc</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/67838/if-we-could-start-our-electrical-grid-from-scratch-with-todays-technology-whic/?lastactivity" class="started-link"><span title="2013-05-02 15:26:53Z" class="relativetime">may 2 at 15:26</span></a>
+            <a href="/users/161/adam-davis">Adam Davis</a> <span class="reputation-score" title="reputation score" dir="ltr">6,654</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-69307" >
+    <div onclick="window.location.href='/questions/69307/the-electricity-grid-what-keeps-small-power-generators-from-being-driven-by-l'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">9</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">472</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/69307/the-electricity-grid-what-keeps-small-power-generators-from-being-driven-by-l" class="question-hyperlink" title="This is a two part question and pertains to power generation:
+
+
+What prevents a larger plant (say nuclear) from turning an itsy-bitsy gas generator into an electric motor and drive current through it? ...">The electricity grid: what keeps small power generators from being &#39;driven&#39; by large ones?</a></h3>
+        <div class="tags t-power t-high-voltage t-generator t-line-power">
+            <a href="/questions/tagged/power" class="post-tag" title="show questions tagged 'power'" rel="tag">power</a> <a href="/questions/tagged/high-voltage" class="post-tag" title="show questions tagged 'high-voltage'" rel="tag">high-voltage</a> <a href="/questions/tagged/generator" class="post-tag" title="show questions tagged 'generator'" rel="tag">generator</a> <a href="/questions/tagged/line-power" class="post-tag" title="show questions tagged 'line-power'" rel="tag">line-power</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/69307/the-electricity-grid-what-keeps-small-power-generators-from-being-driven-by-l/?lastactivity" class="started-link"><span title="2013-05-21 18:20:39Z" class="relativetime">may 21 at 18:20</span></a>
+            <a href="/users/16519/drfriedparts">DrFriedParts</a> <span class="reputation-score" title="reputation score" dir="ltr">4,592</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-68790" >
+    <div onclick="window.location.href='/questions/68790/how-does-a-signal-travel-down-a-telephone-wire'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">6</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">422</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/68790/how-does-a-signal-travel-down-a-telephone-wire" class="question-hyperlink" title="To get data to a computer the telephone wire must sent a signal but how does it do it ?
+Does it use analogue or a digital signal?
+How does it send the &quot;1s&quot; and &quot;0s&quot;? 
+">How does a signal travel down a telephone wire?</a></h3>
+        <div class="tags t-signal t-telephone t-transmission">
+            <a href="/questions/tagged/signal" class="post-tag" title="show questions tagged 'signal'" rel="tag">signal</a> <a href="/questions/tagged/telephone" class="post-tag" title="show questions tagged 'telephone'" rel="tag">telephone</a> <a href="/questions/tagged/transmission" class="post-tag" title="show questions tagged 'transmission'" rel="tag">transmission</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/68790/how-does-a-signal-travel-down-a-telephone-wire/?lastactivity" class="started-link"><span title="2013-05-10 08:41:55Z" class="relativetime">may 10 at 8:41</span></a>
+            <a href="/users/8627/jippie">jippie</a> <span class="reputation-score" title="reputation score 10147" dir="ltr">10.1k</span>
+        </div>
+    </div>
+</div>
+
+</div></div>
+    <div><a id="home-browse" class="button" href="/questions">Browse More Questions</a></div>
+<script type="text/javascript">StackExchange.using('exploreQuestions', function () {
+StackExchange.exploreQuestions.init({count:14});});</script>
+</div>
+    <div id="sidebar">
+                
+        
+
+<style type="text/css">
+    .ads { margin-left: 60px; }
+    .ad-container { width: 220px; height: 250px; margin-right: 20px; margin-bottom: 20px; }
+    .ad-container .ad { height: 250px; }
+    .ad-container .footer-container { overflow: hidden; height: 30px; position: relative; top: -30px; }
+    .ad-container .footer-container .footer { font-family: Arial,Helvetic,Sans-Serif; font-size: 12px; text-align: center; padding-top: 9px; background-color: #000; color: #EFF; opacity: 0.9; filter: alpha(opacity=90); top: 30px; height: 30px; position: relative; }
+    .ad-container a:hover { text-decoration: underline; }
+    #adzerk2 { height: 250px; }
+</style>
+<script type="text/javascript">
+    StackExchange.ready(function () {
+        $(".ad-container").hover(
+            function () {
+                $(".ad-container .footer-container .footer").stop(true, true).animate({ top: "0px" }, "fast");
+            },
+            function () {
+                $(".ad-container .footer-container .footer").animate({ top: "30px" }, "fast");
+            });
+    });
+</script>
+    <script type="text/javascript">
+        var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = 'http://engine.adzerk.net/z/12057/adzerk2_2_17_76?keywords=x-host-electronics.stackexchange.com'; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);
+    </script>
+    <div class="everyonelovesstackoverflow" id="adzerk2">
+    </div>  
+
+<div class="module" id="chat-feature">
+    
+
+    
+<h4><a href="http://chat.stackexchange.com" id="h-chat-link">Visit Chat</a></h4>
+
+<div class="related" id="ad502-rooms"></div>
+<script type="text/javascript">
+// <!--
+    StackExchange.ready(
+    function () {
+        var options = {
+            chatUrl: 'http://chat.stackexchange.com',
+            reloadUrl: '/api/recent-chat',
+            preloadData: {"activeUsers":96,"activeRooms":35,"rooms":[{"name":"Electrical Engineering","id":15,"lastPost":1369916666,"posts":154547,"users":[{"name":"Rocketmagnet","id":35261,"emailhash":"1d142fd41ea0a8b989f8a005e6532845","lastPost":1369916666},{"name":"Anindo Ghosh","id":52117,"emailhash":"f2f5ca56367cd9e16592d47ff63cfecf","lastPost":1369914182},{"name":"PeterJ","id":64978,"emailhash":"acb829898ee9c9df38d6e94827167823","lastPost":1369913925},{"name":"Stacey Anne","id":60738,"emailhash":"533b3b7640e8988f82e17450e3fdd44d","lastPost":1369912063},{"name":"jippie","id":36692,"emailhash":"549a5b0c6bc16592d8f2eacfc211587f","lastPost":1369899954},{"name":"angelatlarge","id":69167,"emailhash":"!http://i.stack.imgur.com/ujDMv.gif","lastPost":1369898001},{"name":"anorton","id":54229,"emailhash":"!http://i.stack.imgur.com/YRBBi.png","lastPost":1369883535}],"messages":[{"date":1369916666,"user":"Rocketmagnet","userid":35261}],"singleImage":false,"tags":[]},{"name":"Arduino","id":8264,"lastPost":1369669927,"posts":3129,"users":[{"name":"Anindo Ghosh","id":52117,"emailhash":"f2f5ca56367cd9e16592d47ff63cfecf","lastPost":1369669927},{"name":"Mark Booth","id":21105,"emailhash":"68e10a2425a24e6d324e66851add37f1","lastPost":1367309578},{"name":"jippie","id":36692,"emailhash":"549a5b0c6bc16592d8f2eacfc211587f","lastPost":null}],"messages":[{"date":1369669927,"user":"Anindo Ghosh","userid":52117}],"singleImage":false,"tags":["arduino"]}]} 
+        };
+
+        StackExchange.chatAd.init(options);
+    });
+// -->
+</script>
+
+</div>
+        
+        
+    </div>
+
+<div id="feed-link">
+    <div id="feed-link-text"><a href="/feeds/month" title="the 30 hottest questions this month"><span class="feed-icon"></span>monthly questions feed</a></div>
+</div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="/about">about</a>
+                    <a href="/faq">faq</a>
+                        <a href="/badges">badges</a>
+                    <a href="http://blog.stackexchange.com?blb=1">blog</a>
+                        <a href="http://chat.stackexchange.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/about/hiring">jobs</a>
+                    <a href="http://stackexchange.com/about/contact">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on", "/")'>mobile</a>
+                    <b><a href="/help">contact us</a></b>
+                        <b><a href="http://meta.electronics.stackexchange.com">feedback</a></b>
+                </div>
+                <div id="footer-sites">
+                <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com" title="professional system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems.">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Answers</a></li>
+                        <li><a href="http://gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com" title="IT security professionals">IT Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (14)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com" title="statisticians, data analysts, data miners and data visualization experts">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackoverflow.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Overflow</a></li>
+                        <li><a href="http://area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &copy; 2013 stack exchange inc; 
+                user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc-wiki</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="footer-flair">
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/" class="cc-wiki-link"></a>
+            </div>
+            <div id="svnrev">
+                rev 2013.5.30.709
+            </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Electrical Engineering Stack Exchange works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+    <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-5620270-24']);
+        _gaq.push(['_setDomainName','.stackexchange.com']);
+_gaq.push(['_trackPageview']);
+    var _qevents = _qevents || [];
+    (function(){
+        var s=document.getElementsByTagName('script')[0];
+        var ga=document.createElement('script');
+        ga.type='text/javascript';
+        ga.async=true;
+        ga.src='http://www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(ga,s);
+        var sc=document.createElement('script');
+        sc.type='text/javascript';
+        sc.async=true;
+        sc.src='http://edge.quantserve.com/quant.js'; 
+        s.parentNode.insertBefore(sc,s);
+    })();
+    </script>
+    <script type="text/javascript">
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>        
+    
+</body>
+</html>

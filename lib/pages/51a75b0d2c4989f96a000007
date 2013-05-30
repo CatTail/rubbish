@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+    <title>Android Enthusiasts Stack Exchange</title>
+    <link rel="shortcut icon" href="http://cdn.sstatic.net/android/img/favicon.ico">
+    <link rel="apple-touch-icon image_src" href="http://cdn.sstatic.net/android/img/apple-touch-icon.png">
+    <link rel="search" type="application/opensearchdescription+xml" title="Android Enthusiasts Stack Exchange" href="/opensearch.xml">
+    
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.sstatic.net/js/stub.js?v=62072796f399"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.sstatic.net/android/all.css?v=6b102a70d7d9">
+    
+    <link rel="alternate" type="application/atom+xml" title="Feed of recent questions" href="/feeds">
+            <script type="text/javascript" defer>
+            StackExchange.using("gps", function() {
+                StackExchange.gps.track("homepage.show", {
+                       
+                    }, true);
+            });
+        </script>
+
+
+
+    <script type="text/javascript">
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('ws://sockets.ny.stackexchange.com:80');
+            StackExchange.realtime.subscribeToInboxNotifications();
+                    StackExchange.realtime.subscribeToReputationNotifications('139');
+                });
+    </script>
+    <script type="text/javascript">
+        StackExchange.init({"stackAuthUrl":"https://stackauth.com","serverTime":1369922314,"enableUserHovercards":true,"site":{"name":"Android Enthusiasts Stack Exchange","description":"Q&A for enthusiasts and power users of the Android operating system","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","useNewStyleFavoriteTagsEditor":true,"enableSocialMediaInSharePopup":true},"user":{"fkey":"279532519dd908415c3aba4bd621ff16","isAnonymous":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.js":"6c261bebf56a","js/moderator.js":"f96f7e4ee5dc","js/full-anon.js":"0916c60ba5ef","js/full.js":"ee8dc25807f6","js/wmd.js":"61154666d6ef","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/mobile.js":"6eb68240242f","js/help.js":"fc9fb0517db2","js/tageditor.js":"450c9e8426fc","js/tageditornew.js":"b6c68ad4c7dd","js/inline-tag-editing.js":"8e84e8a137f7","js/revisions.js":"7273bb714bba","js/review.js":"56c3941a5bfc","js/tagsuggestions.js":"aa48ef6154df","js/post-validation.js":"4aec80fc0009","js/explore-qlist.js":"1c5bbd79b562"});
+        
+    </script>
+    <script type="text/javascript">
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+    
+        <script type="text/javascript">
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+</head>
+<body class="home-page">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+    <div class="container">
+        <div id="header" class=headeranon>
+            <div id="portalLink">
+                <a class="genu" href="http://stackexchange.com" onclick="StackExchange.ready(function(){genuwine.click();});return false;">Stack Exchange</a>
+            </div>
+            <div id="topbar">
+                <div id="hlinks">
+                    
+<span id="hlinks-user"></span>
+<span id="hlinks-nav">                        <a href="/users/login">sign up</a>
+
+ <span class="lsep">|</span>
+                    <a href="/users/login">log in</a>
+
+ <span class="lsep">|</span>
+</span>
+<span id="hlinks-custom"></span>
+                </div>
+                <div id="hsearch">
+                    <form id="search" action="/search" method="get" autocomplete="off">
+                        <div>
+                            <input autocomplete="off" name="q" class="textbox" placeholder="search" tabindex="1" type="text" maxlength="240" size="28" value="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/" >
+                    Android Enthusiasts
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs mainnavsanon">
+                    <ul>
+                            <li><a id="nav-questions" href="/questions">Questions</a></li>
+                            <li><a id="nav-tags" href="/tags">Tags</a></li>
+                            <li><a id="nav-tour" href="/about">Tour</a></li>
+                            <li><a id="nav-users" href="/users">Users</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+        <div id="content">
+            
+<div id="herobox">
+    <div id="hero-content">
+            <div id="close"><a title="click to minimize">_</a></div>
+        <div id="blurb">
+            <span id="site-name">Android Enthusiasts Stack Exchange</span> is a question and answer site for 
+            enthusiasts and power users of the Android operating system. It's 100% free, no registration required.
+            <br />
+            <br />
+            <a href="/about" id="tell-me-more" class="button">Tell me more</a>
+        </div>
+        <div id="desc">
+            <b>Here's how it works:</b>
+            <ol id="hiw">
+                <li id="q">Anybody can ask a question
+                </li>
+                <li id="an">Anybody can answer
+                </li>
+                <li id="b">The best answers are voted up and rise to the top
+                </li>
+            </ol>
+        </div>
+    </div>
+    <script>
+        $('#herobox li').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true);
+            });
+
+            window.location.href = '/about';
+        });
+        $('#tell-me-more').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true);
+            });
+        });
+        $('#herobox #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "minimize" }, true);
+            });
+            $.cookie("hero", "mini", { path: "/" });
+            $.ajax({
+                url: "/hero-mini",
+                success: function (data) {
+                    $("#herobox").fadeOut("fast", function () {
+                        $("#herobox").replaceWith(data);
+                        $("#herobox-mini").fadeIn("fast");
+                    });
+                }
+            });
+            return false;
+        });
+    </script>
+</div>
+    <script type="text/javascript" defer>
+        StackExchange.using("gps", function () {
+            StackExchange.gps.track("hero.show", { hero_type: "hero" }, true);
+        });
+    </script>
+<div id="mainbar">
+
+
+    <div class="subheader"><h1 id="h-top-questions">Explore Our Questions</h1></div>
+    <div id="explore-tags">
+                <a href="/?tags=4.0-ice-cream-sandwich" class="post-tag no-tag-menu" title="Show questions relating to 4.0-ice-cream-sandwich" rel="tag">4.0-ice-cream-sandwich</a>
+                <a href="/?tags=applications" class="post-tag no-tag-menu" title="Show questions relating to applications" rel="tag">applications</a>
+                <a href="/?tags=google-play-store" class="post-tag no-tag-menu" title="Show questions relating to google-play-store" rel="tag">google-play-store</a>
+                <a href="/?tags=2.3-gingerbread" class="post-tag no-tag-menu" title="Show questions relating to 2.3-gingerbread" rel="tag">2.3-gingerbread</a>
+                <a href="/?tags=wi-fi" class="post-tag no-tag-menu" title="Show questions relating to wi-fi" rel="tag">wi-fi</a>
+                <a href="/?tags=cyanogenmod" class="post-tag no-tag-menu" title="Show questions relating to cyanogenmod" rel="tag">cyanogenmod</a>
+                <a href="/?tags=2.2-froyo" class="post-tag no-tag-menu" title="Show questions relating to 2.2-froyo" rel="tag">2.2-froyo</a>
+                <a href="/?tags=samsung-galaxy-s-2" class="post-tag no-tag-menu" title="Show questions relating to samsung-galaxy-s-2" rel="tag">samsung-galaxy-s-2</a>
+                <a href="/?tags=contacts" class="post-tag no-tag-menu" title="Show questions relating to contacts" rel="tag">contacts</a>
+                <a href="/?tags=update" class="post-tag no-tag-menu" title="Show questions relating to update" rel="tag">update</a>
+             <a class="more-tags" href="/tags">more&nbsp;tags</a>
+
+    </div>
+<div id="qlist-wrapper"><div id="question-mini-list">
+
+
+<div class="question-summary narrow" id="question-summary-46214" >
+    <div onclick="window.location.href='/questions/46214/why-are-some-usb-chargers-slower-than-others'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">12</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">210</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/46214/why-are-some-usb-chargers-slower-than-others" class="question-hyperlink" title="It seems with USB chargers for my android phone, not all are created equal.  
+
+The first pic is the official charger which came with my phone (galaxy nexus).  It charges quickly, from 0 to 100% in a ...">Why are some USB chargers slower than others?</a></h3>
+        <div class="tags t-battery t-charging">
+            <a href="/questions/tagged/battery" class="post-tag" title="show questions tagged 'battery'" rel="tag">battery</a> <a href="/questions/tagged/charging" class="post-tag" title="show questions tagged 'charging'" rel="tag">charging</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/46214/why-are-some-usb-chargers-slower-than-others/?lastactivity" class="started-link"><span title="2013-05-29 22:39:17Z" class="relativetime">15h ago</span></a>
+            <a href="/users/23562/compro01">Compro01</a> <span class="reputation-score" title="reputation score" dir="ltr">1,741</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-45779" >
+    <div onclick="window.location.href='/questions/45779/getting-double-message-notifications-after-replacing-talk-with-hangouts'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">6</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">3</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1031 views'>1</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/45779/getting-double-message-notifications-after-replacing-talk-with-hangouts" class="question-hyperlink" title="I&#39;ve updated Google Talk to &quot;Hangouts (replaces Talk)&quot;. Now whenever I get a message, I receive two notifications: one from the new Hangouts app and the other from the old Talk app. How do I disable ...">Getting double message notifications after replacing Talk with Hangouts</a></h3>
+        <div class="tags t-google-talk t-google-hangouts">
+            <a href="/questions/tagged/google-talk" class="post-tag" title="show questions tagged 'google-talk'" rel="tag">google-talk</a> <a href="/questions/tagged/google-hangouts" class="post-tag" title="show questions tagged 'google-hangouts'" rel="tag">google-hangouts</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/45779/getting-double-message-notifications-after-replacing-talk-with-hangouts/?lastactivity" class="started-link"><span title="2013-05-28 01:13:50Z" class="relativetime">2d ago</span></a>
+            <a href="/users/34779/dirdent">DirdenT</a> <span class="reputation-score" title="reputation score" dir="ltr">21</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-45069" >
+    <div onclick="window.location.href='/questions/45069/show-messages-on-lock-screen'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">4</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">4</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1164 views'>1</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/45069/show-messages-on-lock-screen" class="question-hyperlink" title="I&#39;m looking for some sort of way that will show part/all of my text messages, emails, tweets on the screen when the phone is locked.
+
+I just gave up my iPhone and this is something I&#39;m really missing. ...">Show messages on lock screen</a></h3>
+        <div class="tags t-lock-screen t-samsung-galaxy-s-4">
+            <a href="/questions/tagged/lock-screen" class="post-tag" title="show questions tagged 'lock-screen'" rel="tag">lock-screen</a> <a href="/questions/tagged/samsung-galaxy-s-4" class="post-tag" title="show questions tagged 'samsung-galaxy-s-4'" rel="tag">samsung-galaxy-s-4</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/45069/show-messages-on-lock-screen/?lastactivity" class="started-link"><span title="2013-05-22 04:43:53Z" class="relativetime">may 22 at 4:43</span></a>
+            <a href="/users/34444/gaurav">Gaurav</a> <span class="reputation-score" title="reputation score" dir="ltr">11</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-44959" >
+    <div onclick="window.location.href='/questions/44959/how-to-prevent-android-from-creating-lost-dir-on-sd-card'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='2122 views'>2</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/44959/how-to-prevent-android-from-creating-lost-dir-on-sd-card" class="question-hyperlink" title="After the phone restarts, there is a LOST.DIR folder created on the external SD card. Is it possible not to create this folder if nothing is lost?
+">How to prevent Android from creating LOST.DIR on SD card?</a></h3>
+        <div class="tags t-external-sd t-file-system t-file-management">
+            <a href="/questions/tagged/external-sd" class="post-tag" title="show questions tagged 'external-sd'" rel="tag">external-sd</a> <a href="/questions/tagged/file-system" class="post-tag" title="show questions tagged 'file-system'" rel="tag">file-system</a> <a href="/questions/tagged/file-management" class="post-tag" title="show questions tagged 'file-management'" rel="tag">file-management</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/44959/how-to-prevent-android-from-creating-lost-dir-on-sd-card/?lastactivity" class="started-link"><span title="2013-05-07 02:54:15Z" class="relativetime">may 7 at 2:54</span></a>
+            <a href="/users/32427/john">John</a> <span class="reputation-score" title="reputation score" dir="ltr">324</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-45093" >
+    <div onclick="window.location.href='/questions/45093/where-does-google-now-get-its-weather-data'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">6</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">427</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/45093/where-does-google-now-get-its-weather-data" class="question-hyperlink" title="What source/data provider does Google use for its weather data for Google Now (and other services)?
+
+I&#39;ve checked its forecasts against weather.gov, weather.com, accuweather.com, wunderground.com, and ...">Where does Google Now get its weather data?</a></h3>
+        <div class="tags t-google-now t-weather">
+            <a href="/questions/tagged/google-now" class="post-tag" title="show questions tagged 'google-now'" rel="tag">google-now</a> <a href="/questions/tagged/weather" class="post-tag" title="show questions tagged 'weather'" rel="tag">weather</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/45093/where-does-google-now-get-its-weather-data/?lastactivity" class="started-link"><span title="2013-05-21 22:55:50Z" class="relativetime">may 21 at 22:55</span></a>
+            <a href="/users/20519/atlantis">atLANtis</a> <span class="reputation-score" title="reputation score" dir="ltr">3</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-45439" >
+    <div onclick="window.location.href='/questions/45439/what-does-the-online-status-on-viber-mean'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='2032 views'>2</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/45439/what-does-the-online-status-on-viber-mean" class="question-hyperlink" title="Does it mean that the contact is msging/calling another viber contact, or just that the app is activated in the phone and running in the background? My contacts complain about me not replying to them ...">What does the online status on Viber mean?</a></h3>
+        <div class="tags t-notifications t-viber">
+            <a href="/questions/tagged/notifications" class="post-tag" title="show questions tagged 'notifications'" rel="tag">notifications</a> <a href="/questions/tagged/viber" class="post-tag" title="show questions tagged 'viber'" rel="tag">viber</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/45439/what-does-the-online-status-on-viber-mean/?lastactivity" class="started-link"><span title="2013-05-18 05:55:32Z" class="relativetime">may 18 at 5:55</span></a>
+            <a href="/users/34208/hiruni">Hiruni</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-45122" >
+    <div onclick="window.location.href='/questions/45122/imo-messenger-cant-do-skype-im-anymore-any-alternatives'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">5</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">2</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1278 views'>1</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/45122/imo-messenger-cant-do-skype-im-anymore-any-alternatives" class="question-hyperlink" title="I used imo messenger to chat (instant messages) with my Skype contacts, but this feature is now unavailable.
+
+The real Skype client sucks my battery dry in no time.
+
+Any recommendations for further ...">imo Messenger can&#39;t do Skype IM anymore, any alternatives?</a></h3>
+        <div class="tags t-skype t-imo-instant-messenger">
+            <a href="/questions/tagged/skype" class="post-tag" title="show questions tagged 'skype'" rel="tag">skype</a> <a href="/questions/tagged/imo-instant-messenger" class="post-tag" title="show questions tagged 'imo-instant-messenger'" rel="tag">imo-instant-messenger</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/45122/imo-messenger-cant-do-skype-im-anymore-any-alternatives/?lastactivity" class="started-link"><span title="2013-05-30 13:26:55Z" class="relativetime">24m ago</span></a>
+            <a href="/users/34952/user34952">user34952</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-44863" >
+    <div onclick="window.location.href='/questions/44863/restoring-samsung-gt-p1000-to-original-firmware'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1578 views'>2</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/44863/restoring-samsung-gt-p1000-to-original-firmware" class="question-hyperlink" title="I spent the past several hours reading and reading. I tried to upgrade this Tablet to Jellybean, now the Tablet only reaches the Samsung glowing screen.
+
+I tried several fixes to no avail, my first ...">Restoring Samsung GT-P1000 to original firmware</a></h3>
+        <div class="tags t-custom-rom t-samsung-galaxy-tab t-device-firmware">
+            <a href="/questions/tagged/custom-rom" class="post-tag" title="show questions tagged 'custom-rom'" rel="tag">custom-rom</a> <a href="/questions/tagged/samsung-galaxy-tab" class="post-tag" title="show questions tagged 'samsung-galaxy-tab'" rel="tag">samsung-galaxy-tab</a> <a href="/questions/tagged/device-firmware" class="post-tag" title="show questions tagged 'device-firmware'" rel="tag">device-firmware</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/44863/restoring-samsung-gt-p1000-to-original-firmware" class="started-link"><span title="2013-05-03 17:40:06Z" class="relativetime">may 3 at 17:40</span></a>
+            <a href="/users/16575/izzy">Izzy</a> <span class="reputation-score" title="reputation score 22105" dir="ltr">22.1k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-45234" >
+    <div onclick="window.location.href='/questions/45234/how-to-install-samsung-or-other-manufacturers-apps-oncyanogenmod-rom-on-galax'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">3</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts warm"><span title='1188 views'>1</span></div>
+            <div class='warm'>kviews</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/45234/how-to-install-samsung-or-other-manufacturers-apps-oncyanogenmod-rom-on-galax" class="question-hyperlink" title="I&#39;ve tried installing CyanogenMod on my Samsung Galaxy S3 device.
+
+I was amazed by its smoothness and speed, but I&#39;ve missed some of the apps of the official Samsung ROM, such as the camera, the ...">How to install Samsung (or other manufacturers) apps on&#160;CyanogenMod ROM on Galaxy S3</a></h3>
+        <div class="tags t-cyanogenmod t-rom t-samsung t-samsung-touchwiz">
+            <a href="/questions/tagged/cyanogenmod" class="post-tag" title="show questions tagged 'cyanogenmod'" rel="tag">cyanogenmod</a> <a href="/questions/tagged/rom" class="post-tag" title="show questions tagged 'rom'" rel="tag">rom</a> <a href="/questions/tagged/samsung" class="post-tag" title="show questions tagged 'samsung'" rel="tag">samsung</a> <a href="/questions/tagged/samsung-touchwiz" class="post-tag" title="show questions tagged 'samsung-touchwiz'" rel="tag">samsung-touchwiz</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/45234/how-to-install-samsung-or-other-manufacturers-apps-oncyanogenmod-rom-on-galax/?lastactivity" class="started-link"><span title="2013-05-29 08:21:21Z" class="relativetime">1d ago</span></a>
+            <a href="/users/33392/android-developer">android developer</a> <span class="reputation-score" title="reputation score" dir="ltr">124</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-44806" >
+    <div onclick="window.location.href='/questions/44806/how-do-i-get-play-store-to-stop-asking-me-to-auto-update-on-wifi'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">7</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">691</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/44806/how-do-i-get-play-store-to-stop-asking-me-to-auto-update-on-wifi" class="question-hyperlink" title="I have an Acer Iconia A200 running Andriod 4.0.3. Lately whenever I update an app, play store asks me (via a pop-up dialog) if I want to automatically update apps on wi-fi. The only answers I can give ...">How do I get play store to stop asking me to auto-update on wifi?</a></h3>
+        <div class="tags t-google-play-store t-application-autoupdate">
+            <a href="/questions/tagged/google-play-store" class="post-tag" title="show questions tagged 'google-play-store'" rel="tag">google-play-store</a> <a href="/questions/tagged/application-autoupdate" class="post-tag" title="show questions tagged 'application-autoupdate'" rel="tag">application-autoupdate</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/44806/how-do-i-get-play-store-to-stop-asking-me-to-auto-update-on-wifi/?lastactivity" class="started-link"><span title="2013-05-15 13:25:35Z" class="relativetime">may 15 at 13:25</span></a>
+            <a href="/users/13063/michael-kohne">Michael Kohne</a> <span class="reputation-score" title="reputation score" dir="ltr">860</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-44995" >
+    <div onclick="window.location.href='/questions/44995/how-to-move-application-to-sd-card-in-samsung-galaxy-s3-mini'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">2</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">951</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/44995/how-to-move-application-to-sd-card-in-samsung-galaxy-s3-mini" class="question-hyperlink" title="How can I move apps to memory card in Samsung galaxy S3 mini, I am using Android OS version - 4.1.2
+
+App2SD is not working.
+">How to move application to SD card in samsung galaxy s3 mini?</a></h3>
+        <div class="tags t-app2sd t-samsung-galaxy-s-3-mini">
+            <a href="/questions/tagged/app2sd" class="post-tag" title="show questions tagged 'app2sd'" rel="tag">app2sd</a> <a href="/questions/tagged/samsung-galaxy-s-3-mini" class="post-tag" title="show questions tagged 'samsung-galaxy-s-3-mini'" rel="tag">samsung-galaxy-s-3-mini</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/44995/how-to-move-application-to-sd-card-in-samsung-galaxy-s3-mini/?lastactivity" class="started-link"><span title="2013-05-07 09:21:47Z" class="relativetime">may 7 at 9:21</span></a>
+            <a href="/users/16575/izzy">Izzy</a> <span class="reputation-score" title="reputation score 22105" dir="ltr">22.1k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-44744" >
+    <div onclick="window.location.href='/questions/44744/installing-stock-jellybean-in-galaxy-s2-argentina'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">601</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/44744/installing-stock-jellybean-in-galaxy-s2-argentina" class="question-hyperlink" title="The system that came with my Galaxy S2 is heavily bloated. I want to install a bare, stock Jelly Bean ROM. I&#39;ve searched and searched, but keep running into walls.
+
+System version
+
+I don&#39;t know how to ...">Installing stock JellyBean in Galaxy S2 [Argentina]</a></h3>
+        <div class="tags t-samsung-galaxy-s-2 t-4&#251;2-jelly-bean">
+            <a href="/questions/tagged/samsung-galaxy-s-2" class="post-tag" title="show questions tagged 'samsung-galaxy-s-2'" rel="tag">samsung-galaxy-s-2</a> <a href="/questions/tagged/4.2-jelly-bean" class="post-tag" title="show questions tagged '4.2-jelly-bean'" rel="tag">4.2-jelly-bean</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/44744/installing-stock-jellybean-in-galaxy-s2-argentina/?lastactivity" class="started-link"><span title="2013-05-01 19:35:27Z" class="relativetime">may 1 at 19:35</span></a>
+            <a href="/users/33240/uwop-episdn">uʍop ǝpısdn</a> <span class="reputation-score" title="reputation score" dir="ltr">105</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-44713" >
+    <div onclick="window.location.href='/questions/44713/how-to-install-google-play-store-in-coby-mid1060-without-rooting'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">1</div>
+            <div>vote</div>
+        </div>
+        <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+            <div class="mini-counts">1</div>
+            <div>answer</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">447</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/44713/how-to-install-google-play-store-in-coby-mid1060-without-rooting" class="question-hyperlink" title="It seems every tutorial that I see needs to root the tablet.
+">How to install Google Play Store in Coby MID1060 without rooting?</a></h3>
+        <div class="tags t-google-play-store t-coby-kyros">
+            <a href="/questions/tagged/google-play-store" class="post-tag" title="show questions tagged 'google-play-store'" rel="tag">google-play-store</a> <a href="/questions/tagged/coby-kyros" class="post-tag" title="show questions tagged 'coby-kyros'" rel="tag">coby-kyros</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/44713/how-to-install-google-play-store-in-coby-mid1060-without-rooting/?lastactivity" class="started-link"><span title="2013-05-01 11:50:52Z" class="relativetime">may 1 at 11:50</span></a>
+            <a href="/users/16575/izzy">Izzy</a> <span class="reputation-score" title="reputation score 22105" dir="ltr">22.1k</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="question-summary narrow" id="question-summary-45627" >
+    <div onclick="window.location.href='/questions/45627/removing-a-contact-from-frequently-contacted-on-hangout-formerly-google-talk'" class="cp">
+        <div class="votes">
+            <div class="mini-counts">0</div>
+            <div>votes</div>
+        </div>
+        <div class="status unanswered">
+            <div class="mini-counts">0</div>
+            <div>answers</div>
+        </div>
+        <div class="views">
+            <div class="mini-counts">838</div>
+            <div>views</div>
+        </div>
+    </div>
+    <div class="summary">
+        
+        <h3><a href="/questions/45627/removing-a-contact-from-frequently-contacted-on-hangout-formerly-google-talk" class="question-hyperlink" title="After the recent update to v.1.0.1.678536 on my Nexus S, I see that it is automatically listing few contacts as &quot;frequently contacted&quot;, I don&#39;t want to see certain people on that list, and there is no ...">Removing a contact from &ldquo;Frequently contacted&rdquo; on Hangout (formerly Google Talk) app</a></h3>
+        <div class="tags t-google-talk">
+            <a href="/questions/tagged/google-talk" class="post-tag" title="show questions tagged 'google-talk'" rel="tag">google-talk</a> 
+        </div>
+        <div class="started">
+            <a href="/questions/45627/removing-a-contact-from-frequently-contacted-on-hangout-formerly-google-talk" class="started-link"><span title="2013-05-20 11:26:26Z" class="relativetime">may 20 at 11:26</span></a>
+            <a href="/users/34339/cje">cje</a> <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+</div>
+
+</div></div>
+    <div><a id="home-browse" class="button" href="/questions">Browse More Questions</a></div>
+<script type="text/javascript">StackExchange.using('exploreQuestions', function () {
+StackExchange.exploreQuestions.init({count:14});});</script>
+</div>
+    <div id="sidebar">
+                
+        
+
+<style type="text/css">
+    .ads { margin-left: 60px; }
+    .ad-container { width: 220px; height: 250px; margin-right: 20px; margin-bottom: 20px; }
+    .ad-container .ad { height: 250px; }
+    .ad-container .footer-container { overflow: hidden; height: 30px; position: relative; top: -30px; }
+    .ad-container .footer-container .footer { font-family: Arial,Helvetic,Sans-Serif; font-size: 12px; text-align: center; padding-top: 9px; background-color: #000; color: #EFF; opacity: 0.9; filter: alpha(opacity=90); top: 30px; height: 30px; position: relative; }
+    .ad-container a:hover { text-decoration: underline; }
+    #adzerk2 { height: 250px; }
+</style>
+<script type="text/javascript">
+    StackExchange.ready(function () {
+        $(".ad-container").hover(
+            function () {
+                $(".ad-container .footer-container .footer").stop(true, true).animate({ top: "0px" }, "fast");
+            },
+            function () {
+                $(".ad-container .footer-container .footer").animate({ top: "30px" }, "fast");
+            });
+    });
+</script>
+    <script type="text/javascript">
+        var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = 'http://engine.adzerk.net/z/12057/adzerk2_2_17_76?keywords=x-host-android.stackexchange.com'; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);
+    </script>
+    <div class="everyonelovesstackoverflow" id="adzerk2">
+    </div>  
+
+
+        
+        
+    </div>
+
+<div id="feed-link">
+    <div id="feed-link-text"><a href="/feeds/month" title="the 30 hottest questions this month"><span class="feed-icon"></span>monthly questions feed</a></div>
+</div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="/about">about</a>
+                    <a href="/faq">faq</a>
+                        <a href="/badges">badges</a>
+                    <a href="http://blog.stackexchange.com?blb=1">blog</a>
+                        <a href="http://chat.stackexchange.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/about/hiring">jobs</a>
+                    <a href="http://stackexchange.com/about/contact">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on", "/")'>mobile</a>
+                    <b><a href="/help">contact us</a></b>
+                        <b><a href="http://meta.android.stackexchange.com">feedback</a></b>
+                </div>
+                <div id="footer-sites">
+                <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com" title="professional system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems.">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Answers</a></li>
+                        <li><a href="http://gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com" title="IT security professionals">IT Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (14)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com" title="statisticians, data analysts, data miners and data visualization experts">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                    
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackoverflow.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Overflow</a></li>
+                        <li><a href="http://area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com">Stack Overflow Careers</a></li>
+                    
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &copy; 2013 stack exchange inc; 
+                user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc-wiki</a> 
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="footer-flair">
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/" class="cc-wiki-link"></a>
+            </div>
+            <div id="svnrev">
+                rev 2013.5.30.709
+            </div>
+                <div id="additional-notices">
+                    The Android robot logo is a trademark of Google Inc. Android is a trademark of Google Inc.
+                </div>
+            
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Android Enthusiasts Stack Exchange works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+    <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-5620270-24']);
+        _gaq.push(['_setDomainName','.stackexchange.com']);
+_gaq.push(['_trackPageview']);
+    var _qevents = _qevents || [];
+    (function(){
+        var s=document.getElementsByTagName('script')[0];
+        var ga=document.createElement('script');
+        ga.type='text/javascript';
+        ga.async=true;
+        ga.src='http://www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(ga,s);
+        var sc=document.createElement('script');
+        sc.type='text/javascript';
+        sc.async=true;
+        sc.src='http://edge.quantserve.com/quant.js'; 
+        s.parentNode.insertBefore(sc,s);
+    })();
+    </script>
+    <script type="text/javascript">
+        _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>        
+    
+</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+        <head>
+            <title>Stack Overflow Careers 2.0 </title>
+            <link href="//careerscdn.sstatic.net/careers/cso/all.min.css?v=11a2ebc62db3" rel="stylesheet" />
+            
+            
+
+<!--[if lt IE 8]>
+<style type="text/css">
+input[type=submit], button
+{
+    width:auto !important;
+    min-width:0;
+}
+</style>
+<![endif]-->
+            
+
+                <link rel="alternate" hreflang="en-US" href="/" />
+                <link rel="alternate" hreflang="de-DE" href="/de/" />
+                <link rel="alternate" hreflang="en-GB" href="/uk/" />
+                <link rel="alternate" hreflang="fr-FR" href="/fr/" />
+            <link rel="canonical" href="http://careers.stackoverflow.com/" />
+                <link rel="shortcut icon" href="//careerscdn.sstatic.net/careers/Img/favicon.ico?v=0a0246c7a059" />
+
+
+            
+        </head>
+    <body>
+        <noscript>
+            <div id="noscript-padding"></div>
+        </noscript>
+
+        
+    
+
+            <div id="global">
+                <div class="container">
+
+
+
+<ul id="nav-global" class="nav">
+        <li class="login">
+<a href="http://careers.stackoverflow.com/users/login">log in</a>        </li>
+</ul>
+                </div>
+            </div>
+            <div id="header">
+                <div class="container">
+                    <div class="branding">
+
+                            <a href="/" class="two-oh"><img alt="Careers 2.0" src="//careerscdn.sstatic.net/careers/Img/logo-new.png?v=6e346451cc50"></a>
+                    </div>
+                    <ul class="nav careers">
+
+                                <li><a class="selected" href="/">home</a></li>
+                                <li><a class="" href="/jobs">search jobs</a></li>
+                                    <li><a class="" href="/cv">my profile</a></li>
+                                    <li class="role-switch"><a href="/products" title="post job listings, search candidates, and more">for employers &#187;</a></li>
+                    </ul>
+
+                <br class="clear" />
+                </div>
+            </div>
+                <div class="container">
+                <div id="content">
+                    
+    <div id="candidate-home" class="home">
+        <div id="main" class="main">
+            <h2>search jobs</h2>
+<form action="/jobs" class="search" method="get">                <div>
+                    <label>what</label>
+                    <input class="searchterm" id="searchTerm" name="searchTerm" placeholder="job title, keyword, or company" type="text" value="" />
+                </div>
+                <div>
+                    <label>where</label>
+                    <input class="location" id="location" name="location" placeholder="city, country or zip code" type="text" value="" />
+                </div>
+                <input type="submit" value="search" />
+</form>
+            <div id="keywords">
+                <strong>keywords:</strong>
+<a class="job-link" href="/jobs/tag/asp.net">ASP.NET</a> - <a class="job-link" href="/jobs/tag/java">Java</a> - <a class="job-link" href="/jobs/tag/mongodb">MongoDB</a> - <a class="job-link" href="/jobs/tag/jquery">jQuery</a> - <a class="job-link" href="/jobs/tag/python">Python</a> - <a class="job-link" href="/jobs/tag/linux">Linux</a> - <a class="job-link" href="/jobs/tag/ruby">Ruby</a> - <a class="job-link" href="/jobs/tag/node.js">Node.js</a> - <a class="job-link" href="/jobs/tag/php">PHP</a>                <br class="clear" />
+
+                <strong>locations:</strong>
+<a class="job-link" href="/jobs/location/san%20francisco">San Francisco</a> - <a class="job-link" href="/jobs/location/chicago">Chicago</a> - <a class="job-link" href="/jobs/location/new%20york">New York</a> - <a class="job-link" href="/jobs/location/london">London</a> - <a class="job-link" href="/jobs/location/seattle">Seattle</a> - <a class="job-link" href="/jobs/location/boston">Boston</a>                -
+                <a class="job-link" href="/jobs/remote">Remote</a>
+                <br class="clear" />
+
+                <strong>companies:</strong>
+<a class="job-link" href="/jobs/employer/Two%20Sigma">Two Sigma</a> - <a class="job-link" href="/jobs/employer/CVS%20Caremark">CVS Caremark</a> - <a class="job-link" href="/jobs/employer/Veson%20Nautical">Veson Nautical</a> - <a class="job-link" href="/jobs/employer/Amazon">Amazon</a> - <a class="job-link" href="/jobs/employer/Resource%20Data">Resource Data</a>                <br class="clear" />
+            </div>
+
+    <h2>featured jobs</h2>
+    <div class="listings">
+
+
+            <div class="odd">
+                <a class="job-link" href="/jobs/34847/full-stack-engineer-leading-online-fashion-tobi?a=FaDfyHm">Full Stack Engineer - Leading Online Fashion…</a>
+                <span class="employer">Tobi</span>
+                <span class="location">Brisbane, CA</span>
+                <p class="tags"><a class="post-tag job-link" href="/jobs/tag/ruby-on-rails">ruby-on-rails</a> <a class="post-tag job-link" href="/jobs/tag/sql">sql</a> <a class="post-tag job-link" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link" href="/jobs/tag/unix">unix</a> </p>
+            </div>
+            <div class="even">
+                <a class="job-link" href="/jobs/29307/android-developer-goodreads?a=yCOxx2E">Android Developer</a>
+                <span class="employer">Goodreads</span>
+                <span class="location">San Francisco, CA</span>
+                <p class="tags"><a class="post-tag job-link" href="/jobs/tag/android">android</a> <a class="post-tag job-link" href="/jobs/tag/java">java</a> <a class="post-tag job-link" href="/jobs/tag/oop">oop</a> <a class="post-tag job-link" href="/jobs/tag/multithreading">multithreading</a> <a class="post-tag job-link" href="/jobs/tag/asynchronous">asynchronous</a> </p>
+            </div>
+            <div class="odd">
+                <a class="job-link" href="/jobs/35098/net-new-product-developer-inetu-managed-hosting-cloud?a=Ft1cD4s">.NET New Product Developer</a>
+                <span class="employer">INetU Managed Hosting &amp; Cloud Computing</span>
+                <span class="location">Allentown, PA</span>
+                <p class="tags"><a class="post-tag job-link" href="/jobs/tag/c%23">c#</a> <a class="post-tag job-link" href="/jobs/tag/asp.net">asp.net</a> <a class="post-tag job-link" href="/jobs/tag/mvc">mvc</a> <a class="post-tag job-link" href="/jobs/tag/razor">razor</a> <a class="post-tag job-link" href="/jobs/tag/jquery">jquery</a> </p>
+            </div>
+            <div class="even">
+                <a class="job-link" href="/jobs/35208/front-end-developer-javascript-backbone-js-bloomfire?a=FB4ME00">Front End Developer/Javascript/Backbone.js</a>
+                <span class="employer">Bloomfire</span>
+                <span class="location">Austin, TX</span>
+                <p class="tags"><a class="post-tag job-link" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link" href="/jobs/tag/jquery">jquery</a> <a class="post-tag job-link" href="/jobs/tag/node.js">node.js</a> <a class="post-tag job-link" href="/jobs/tag/backbone.js">backbone.js</a> <a class="post-tag job-link" href="/jobs/tag/amazon-web-services">amazon-web-services</a> </p>
+            </div>
+            <div class="odd">
+                <a class="job-link" href="/jobs/32306/python-developer-paylogic?a=CauVOso">Python Developer</a>
+                <span class="employer">Paylogic</span>
+                <span class="location">Groningen, The Netherlands</span>
+                <p class="tags"><a class="post-tag job-link" href="/jobs/tag/python">python</a> <a class="post-tag job-link" href="/jobs/tag/sqlalchemy">sqlalchemy</a> <a class="post-tag job-link" href="/jobs/tag/django">django</a> <a class="post-tag job-link" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link" href="/jobs/tag/sql">sql</a> </p>
+            </div>
+            <div class="even">
+                <a class="job-link" href="/jobs/31963/web-developer-how-does-no-politics-no-woobox?a=BLn9cCk">Web Developer - How does no politics &amp; no…</a>
+                <span class="employer">Woobox</span>
+                <span class="location">Vancouver, WA</span>
+                <p class="tags"><a class="post-tag job-link" href="/jobs/tag/php">php</a> <a class="post-tag job-link" href="/jobs/tag/javascript">javascript</a> <a class="post-tag job-link" href="/jobs/tag/facebook">facebook</a> <a class="post-tag job-link" href="/jobs/tag/jquery">jquery</a> <a class="post-tag job-link" href="/jobs/tag/web-applications">web-applications</a> </p>
+            </div>
+
+        <img alt="" class="impression" src="http://careers.stackoverflow.com/ad/i/FaDfyHm-yCOxx2E-Ft1cD4s-FB4ME00-CauVOso-BLn9cCk" style="display:none">
+        <a href="/jobs/featured">More featured jobs…</a>
+    </div>
+
+            <div class="geo" data-url="/geojobs?take=6"></div>
+
+                <h2>what people say about us</h2>
+                <div id="testimonials">
+                        <div>
+                            <p>We love your service and filled two positions that we were looking to fill. I get approached by staffing companies all the time and I see no reason to use them when I can just post the job opening on Stack Overflow and get amazing people.</p>
+                            <span>R.P.</span> &nbsp;–&nbsp; <span>Studio98</span>
+                        </div>
+                        <div>
+                            <p>The type of developers that regularly use Stack Overflow are the type of employees we want to hire. That is, by using Careers 2.0, we know we are targeting people from a community of talented, like-minded individuals. Additionally, the proactive customer service from Stack Overflow has been impressive. Our account executive was insanely good.</p>
+                            <span>I.Y.</span> &nbsp;–&nbsp; <span>Park Assist, New York</span>
+                        </div>
+                </div>
+        </div>
+        <div id="sidebar" class="sidebar home">
+                <h2>job seekers</h2>
+                <div>
+                    <ul>
+                        <li>get found</li>
+                        <li>apply seamlessly</li>
+                        <li>be awesome</li>
+                    </ul>
+                    <div class="spacer">
+                        <a class="button green" href="/cv/get-one">create my profile</a>
+                    </div>
+                    <a href="/spolsky">see a sample profile</a>
+                </div>
+                <h2>employers</h2>
+                <p>
+                    Reach top talent from the top tech community
+                </p>
+                <p>
+                    <a class="button blue" href="/checkout/listing/choose">post a job</a>
+                    <a class="button blue" href="/employer/search">search candidates</a>
+                </p>
+                <p>
+                    or <a href="/products">learn about our products</a>
+                </p>
+            
+
+    <h2>company spotlight</h2>
+    <div id="spotlight" class="gamesys">
+        <p><a href="/jobs/employer/Gamesys?a=6c"><img alt="Gamesys" id="spotlight-logo" src="http://i.imgur.com/4l35hIB.png?1" title="Gamesys"></a></p>
+
+        <p>
+Gamesys was founded by a small team of developers in 2001, 12 years on our leading brand Jackpotjoy is now the UK&#39;s leading online instant win and bingo site with over 4 million players, we&#39;ve become the first company worldwide to launch real cash gaming applications on Facebook, and in the last few years have branched into mobile, tablet and social, non-gambling games such as Here Be Monsters.</p>
+
+        <p><a href="/jobs/employer/Gamesys?a=6c">View Gamesys job listings »</a></p>
+        <img alt="" class="impression" src="http://careers.stackoverflow.com/ad/i/6c" style="display:none">
+    </div>
+
+        </div>
+    </div>
+
+
+
+                </div>
+                <br class="clear" />
+        </div>
+
+        <div id="footer">
+            <div class="container">
+
+                <div class="logo">
+                    <img alt="Careers 2.0" src="//careerscdn.sstatic.net/careers/Img/logo-gray.png?v=b1ed1f5a4f5d">
+                </div>
+
+                    <div id="footer-menu">
+                        <a href="/about">about</a>
+                        <a href="/faq">faq</a>
+                        <a href="/support">support</a>
+                            <a href="http://blog.careers.stackoverflow.com">blog</a>
+                                                    <a href="http://stackoverflow.com/legal">legal</a>
+                            <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                            <a href="http://engine.adzerk.net/redirect/0/3391/2751/0/7a2450e6832649c4bde5ea8702b80490/0">advertise here</a>
+                        <strong><a href="http://twitter.com/StackCareers">follow us</a></strong>
+                        <strong><a href="http://meta.stackoverflow.com">feedback always welcome</a></strong>
+
+                        <div id="sites">
+                            <span style="color: #FE7A15">■</span>&nbsp;<a href="http://stackoverflow.com">stackoverflow.com</a>
+                            <span style="color: #E8272C">■</span>&nbsp;<a href="http://serverfault.com">serverfault.com</a>
+                            <span style="color: #00AFEF">■</span>&nbsp;<a href="http://superuser.com">superuser.com</a>
+                            <span style="color: #969696">■</span>&nbsp;<a href="http://meta.stackoverflow.com">meta</a>
+                        </div>
+
+                            <div id="translations">
+                                    <span style="color:#E8272C">■</span>
+<a href="/">Careers 2.0</a>                                    <span style="color:#FFCE00">■</span>
+<a href="/de/">Careers Deutsch</a>                                    <span style="color:#00247d">■</span>
+<a href="/uk/">Careers UK</a>                                    <span style="color:#EF4135">■</span>
+<a href="/fr/">Careers Fran&#231;ais</a>                            </div>
+                        <div id="copyright">
+                            site design / logo &#169; 2013 stack exchange inc
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+        <noscript>
+            <div id="noscript-warning">Stack Overflow requires JavaScript to be enabled</div>
+        </noscript>
+
+        
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5620270-5']);
+        _gaq.push(['_setCustomVar', 1, 'IsAuthenticated', 'True']);
+                        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+        
+
+<script src="//careerscdn.sstatic.net/careers/Js/stub.min.js?v=c459c3821888" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">
+    Careers.domain = "careers.stackoverflow.com";
+    Careers.referrer = "careers.stackoverflow.com";
+
+
+
+    document.documentElement.className += " js";
+
+    Careers.init({"site":{"name":"Careers 2.0"},"user":{"isAnonymous":true}});
+    Careers.using.setFileProviding({"bigtext":"//careerscdn.sstatic.net/careers/Js/third-party/bigtext.min.js?v=f2c42b8265b2","candidateManager":"//careerscdn.sstatic.net/careers/Js/CandidateManager/CandidateManager.min.js?v=f0ad385e8e4c","careersAuth":"//careerscdn.sstatic.net/careers/Js/careersauth.min.js?v=6de9eaa3711b","checkout":"//careerscdn.sstatic.net/careers/Js/checkout.min.js?v=0ac8f0394604","checkoutChoose":"//careerscdn.sstatic.net/careers/Js/checkout-choose.min.js?v=62b51b08e4f9","companyPages":"//careerscdn.sstatic.net/careers/Js/company-pages.min.js?v=dda25f16f9cd","companyPagesCreate":"//careerscdn.sstatic.net/careers/Js/company-pages.create.min.js?v=529a68dc8cf8","companyPagesEdit":"//careerscdn.sstatic.net/careers/Js/company-pages.angular-edit.min.js?v=3a11c4edcdc1","cv":"//careerscdn.sstatic.net/careers/Js/cv.min.js?v=7d7b7054f9df","cvEdit":"//careerscdn.sstatic.net/careers/Js/cv-edit.min.js?v=7a52cb9ff8e6","cvInvitation":"//careerscdn.sstatic.net/careers/Js/cv-invitation.min.js?v=a03c00311b53","cvInvitationsAdmin":"//careerscdn.sstatic.net/careers/Js/cv-invitations-admin.min.js?v=e2a57a517a75","employerLogin":"//careerscdn.sstatic.net/careers/Js/employer-login.min.js?v=34ad7bdcb650","import":"//careerscdn.sstatic.net/careers/Js/import.min.js?v=75faa7cc99a5","jobs":"//careerscdn.sstatic.net/careers/Js/jobs.min.js?v=743189edc44f","jobsAdmin":"//careerscdn.sstatic.net/careers/Js/jobs.admin.min.js?v=e46d58752a0c","jobsPost":"//careerscdn.sstatic.net/careers/Js/jobs-post.min.js?v=23b69e63936e","messaging":"//careerscdn.sstatic.net/careers/Js/messaging.min.js?v=8743cfc8dc83","openidJquery":"//careerscdn.sstatic.net/careers/Js/third-party/openid-jquery.min.js?v=06e9e33a1777","positionHeader":"//careerscdn.sstatic.net/careers/Js/position-header.min.js?v=05d5c4e9e499","privacy":"//careerscdn.sstatic.net/careers/Js/privacy.min.js?v=cf5612d30fa0","searchNew":"//careerscdn.sstatic.net/careers/Js/search-new.min.js?v=f6ec18c2e791","shared":"//careerscdn.sstatic.net/careers/Js/shared.min.js?v=33d948919c15","stackanswers":"//careerscdn.sstatic.net/careers/Js/cv_stackanswers.min.js?v=27a838f1a9e9","tagEditor":"//careerscdn.sstatic.net/careers/Js/tageditor.min.js?v=cc5398ea7c47"});
+    Careers.using.setFileProviding({localization: "//careerscdn.sstatic.net/careers/Js/Localization/localization.min.js?v=183c21d8d723"});
+
+</script>
+        
+    <script src="//careerscdn.sstatic.net/careers/Js/third-party/jquery.form.min.js?v=cc663f59e993" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        Careers.using("jobs", function () {
+            Careers.jobs.init();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            var div = $("div.geo");
+            div.load(div.data("url"));
+        });
+    </script>
+    
+    <script type="text/javascript">
+        $(function () {
+            var topBar = $("#languageRedirectOption");
+            topBar.on("click", ".close", function () {
+                var wayOffFutureDate = new Date();
+                wayOffFutureDate.setTime(wayOffFutureDate.getTime() + (1000 * 24 * 60 * 60 * 1000));
+                document.cookie = "IAmHappyWhereIAm=IGotSunshine;expires=" + wayOffFutureDate.toGMTString();
+                topBar.remove();
+            });
+            setTimeout(function () {
+                topBar.slideDown("slow");
+            }, 1500);
+        });
+    </script>
+
+
+        
+
+    </body>
+</html>
