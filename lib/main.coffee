@@ -4,4 +4,4 @@ preprocessor = require './preprocessor'
 
 util.getDb 'category', (err, db) ->
   util.getCollection db, 'page', (err, collection) ->
-    crawler.craw 'http://stackoverflow.com/', collection, preprocessor.handler
+    crawler.craw 'http://www.yahoo.com/', collection, preprocessor.handler
