@@ -41,10 +41,10 @@ cluster = (centriods, vectors) ->
     clusters[id] = {}
   for vid, vector of vectors
     if not centriods[vid]
-      minial = {distance: 100}
+      minial = {}
       for cid, centriod of centriods
         dis = distance centriod, vector
-        if dis < minial.distance
+        if minial.distance is undefined or dis < minial.distance
           minial.id = cid
           minial.distance = dis
       clusters[minial.id][vid] = vector
@@ -53,6 +53,7 @@ cluster = (centriods, vectors) ->
 
   return clusters
 
+console.log 'kmean'
 util.getDb 'category', (err, db) ->
   util.getCollection db, 'page', (err, collection) ->
     collection.find({}, {fields: {tfidf: 1}}).toArray (err, docs) ->
@@ -60,7 +61,7 @@ util.getDb 'category', (err, db) ->
       centriods = {}
       for doc in docs
         vectors[doc._id] = doc.tfidf
-      for doc in docs.slice(100, 120)
+      for doc in docs.slice(0, 20)
         centriods[doc._id] = doc.tfidf
       centriods = recentric(cluster(centriods, vectors))
       centriods = recentric(cluster(centriods, vectors))
