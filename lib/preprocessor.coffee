@@ -10,7 +10,7 @@ dir = './pages'
 preprocessor.handler = (target, collection, data, next) ->
   collection.findOne {url: target}, (err, doc) ->
     if not err and not doc
-      if count < 30
+      if count < 3000
         jsdom.env {
           html: data
           url: target

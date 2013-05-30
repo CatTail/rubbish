@@ -2,6 +2,7 @@ util = require './util'
 async = require 'async'
 
 console.log 'tfidf'
+count = 0
 util.getDb 'category', (err, db) ->
   util.getCollection db, 'page', (err, collection) ->
     collection.find({}, {fields: {tokens: 1}}).toArray (err, docs) ->
@@ -32,6 +33,7 @@ util.getDb 'category', (err, db) ->
           tfidf[token] = tfidf[token] / distance
 
         collection.update {_id: doc._id}, {$set: {tfidf: tfidf}}, ->
+          console.log ++count, doc._id
           callback()
       ), ->
         db.close()
